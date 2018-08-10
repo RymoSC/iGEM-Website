@@ -1,0 +1,140 @@
+{{:Team:UCSC/CSS}}
+<html>
+<body>
+
+<nav class="topnav" id="myTopnav">
+  <a class="nav-logo" href="http://2018.igem.org/Team:UCSC">
+    <img class="nav-logo-img" src="http://2018.igem.org/wiki/images/6/66/T--UCSC--UCSC_New_Logo.png" alt="PoPPY NavBar Logo" height="45px" width="auto" title="" style="">
+  </a>
+
+  <a href="javascript:void(0);" class="menu-icon" onclick="toggleNavbar()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <div class="nav-links-container">
+    <a href="http://2018.igem.org/Team:UCSC">Home</a>
+
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="dropbtn dropdown-icon" onclick="toggleDropdownTeam()">Team
+        <i class="fa fa-caret-down"></i>
+      </a>
+      <ul class="dropdown-content" id="ddTeam">
+        <li><a href="http://2018.igem.org/Team:UCSC/Team">Meet the Team</a></li>
+        <li><a href="http://2018.igem.org/Team:UCSC/Collaborations">Collaborations</a></li>
+        <li><a href="http://2018.igem.org/Team:UCSC/Attributions">Attributions</a></li>
+        <li><a href="http://2018.igem.org/Team:UCSC/Sponsors">Sponsors</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+     <a href="javascript:void(0);" class="dropbtn dropdown-icon" onclick="toggleDropdownProject()">Project
+       <i class="fa fa-caret-down"></i>
+     </a>
+     <ul class="dropdown-content" id="ddProject">
+       <li><a href="http://2018.igem.org/Team:UCSC/Description">Description</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Design">Design</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Target_Organism">Target Organism</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Model">Modeling</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Experiments">Experiments</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Improve">Improvement</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Results">Results</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Demonstrate">Demonstrate</a></li>
+<!--       <li><a href="http://2018.igem.org/Team:UCSC/Future">Future</a></li> Add once we determine what future work would be. -->
+       <li><a href="http://2018.igem.org/Team:UCSC/Notebook">Notebook</a></li>
+     </ul>
+    </div>
+
+    <div class="dropdown">
+     <a href="javascript:void(0);" class="dropbtn dropdown-icon" onclick="toggleDropdownHumanPractices()">Human Practices
+       <i class="fa fa-caret-down"></i>
+     </a>
+     <ul class="dropdown-content" id="ddHumanPractices">
+       <li><a href="http://2018.igem.org/Team:UCSC/Human_Practices">Outreach</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Public_Engagement">Public Engagement</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Safety">Safety</a></li>
+     </ul>
+    </div>
+
+    <div class="dropdown">
+     <a href="javascript:void(0);" class="dropbtn dropdown-icon" onclick="toggleDropdownParts()">Parts
+       <i class="fa fa-caret-down"></i>
+     </a>
+     <ul class="dropdown-content" id="ddParts">
+       <li><a href="http://2018.igem.org/Team:UCSC/Parts">Overview</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Basic_Part">Basic Parts</a></li>
+       <li><a href="http://2018.igem.org/Team:UCSC/Composite_Part">Composite Parts</a></li>
+<!--       <li><a href="http://2018.igem.org/Team:UCSC/Part_Collection">Part Collection</a></li> Probably won't use? -->
+     </ul>
+    </div>
+
+     <a href="http://2018.igem.org/Team:UCSC/Judging">Judging</a>
+     <a href="http://2018.igem.org/Team:UCSC/Contact">Contact</a>
+   </div>
+
+</nav>
+
+<script type="text/javascript">
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function toggleNavbar() {
+   var x = document.getElementById("myTopnav");
+   if (x.className === "topnav") {
+       x.className += " responsive";
+   } else {
+       x.className = "topnav";
+   }
+}
+
+/* Toggle between adding and removing the "show" class to dropdown when the user clicks on the icon */
+function toggleDropdownTeam() {
+  if ($(window).width() <= 1010) { 
+   var x = document.getElementById("ddTeam");
+   if (x.className === "dropdown-content") {
+       x.className += "show";
+   } else {
+       x.className = "dropdown-content";
+   }
+  }
+}
+
+function toggleDropdownProject() {
+  if ($(window).width() <= 1010) {
+   var x = document.getElementById("ddProject");
+   if (x.className === "dropdown-content") {
+       x.className += "show";
+   } else {
+       x.className = "dropdown-content";
+   }
+  }
+}
+
+function toggleDropdownHumanPractices() {
+  if ($(window).width() <= 1010) {
+   var x = document.getElementById("ddHumanPractices");
+   if (x.className === "dropdown-content") {
+       x.className += "show";
+   } else {
+       x.className = "dropdown-content";
+   }
+  }
+}
+
+function toggleDropdownParts() {
+  if ($(window).width() <= 1010) {
+   var x = document.getElementById("ddParts");
+   if (x.className === "dropdown-content") {
+       x.className += "show";
+   } else {
+       x.className = "dropdown-content";
+   }
+  }
+}
+
+</script>
+
+<!-- Fill space so that other pages start underneath the navbar -->
+<div class="navFiller" style="height:45px; width:100%; clear:both;">
+</div>
+
+</body>
+</html>
