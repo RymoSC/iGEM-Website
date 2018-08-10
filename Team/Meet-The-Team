@@ -1,0 +1,592 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {margin:0}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .myslides13, .mySlides14, .mySlides15, .mySlides16, .mySlides17, .mySlides18, .mySlides19, .mySlides20{
+  display: none
+}
+</style>
+</head>
+<body>
+
+  <!--       ************************************* Downscale Images ***************************************      -->
+
+
+  <div class="header-image" id="header_image_team" style="background-image: url(http://2018.igem.org/wiki/images/f/fa/T--UCSC--Group_Photo5.png);">
+    <p class="header-title" id="title_meetTheTeam">
+      Meet the Team
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
+
+
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<!--       ************************************* Row ***************************************      -->
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+
+<br> <br> <br> <br>
+
+
+<div class="row" id="top_row">
+
+
+  <!--       ************************************* Morgan ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column" id="morgan">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/f/f0/T--UCSC--Morgan_1050.png" style="width:100%">
+      </div>
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/4/49/T--UCSC--Morgan_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/3/3e/T--UCSC--Morgan_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/0/08/T--UCSC--MorganFunFact.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Captain </p>
+    <p class="FullNames"> Morgan Tardy </p>
+    
+  </div>
+
+
+  <!--       ************************************* Emily ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides2 fade">
+        <img src="http://2018.igem.org/wiki/images/6/65/T--UCSC--Emily_1038.png" style="width:100%">
+      </div>
+      <div class="mySlides2 fade">
+        <img src="http://2018.igem.org/wiki/images/1/1e/T--UCSC--Emily_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides2 fade">
+        <img src="http://2018.igem.org/wiki/images/0/0d/T--UCSC--Emily_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Captain </p>
+    <p class="FullNames"> Emily Mount </p>
+    
+  </div>
+
+
+ <!--       ************************************* Claire ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides15 fade">
+        <img src="http://2018.igem.org/wiki/images/f/f0/T--UCSC--Claire_1019.png" style="width:100%">
+      </div>
+      <div class="mySlides15 fade">
+        <img src="http://2018.igem.org/wiki/images/4/4c/T--UCSC--Claire_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides15 fade">
+        <img src="http://2018.igem.org/wiki/images/a/a8/T--UCSC--Claire_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Design Team </p>
+    <p class="FullNames"> Claire Bispo </p>
+    
+  </div>
+
+
+  <!--       ************************************* Gina ***************************************      -->
+  <!-- Fix Scrabble -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides9 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c3/T--UCSC--Gina_1082.png" style="width:100%">
+      </div>
+      <div class="mySlides9 fade">
+        <img src="http://2018.igem.org/wiki/images/1/13/T--UCSC--Gina_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides9 fade">
+        <img src="http://2018.igem.org/wiki/images/1/18/T--UCSC--Gina_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Protocol Team </p>
+    <p class="FullNames"> Gina Cuneo </p>
+    
+  </div>
+</div>
+<br>
+
+
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<!--       ************************************* Row ***************************************      -->
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<div class="row">
+
+
+  <!--       ************************************* Michael ***************************************      -->
+  <!-- Fix Scrabble -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides17 fade">
+        <img src="http://2018.igem.org/wiki/images/e/ed/T--UCSC--Mykhaylo_1113.png" style="width:100%">
+      </div>
+      <div class="mySlides17 fade">
+        <img src="http://2018.igem.org/wiki/images/7/75/T--UCSC--Michael_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides17 fade">
+        <img src="http://2018.igem.org/wiki/images/5/53/T--UCSC--Michael_MQ.png" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 16)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 16)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Post-Production Team </p>
+    <p class="FullNames"> Mykhaylo Dudkin </p>
+    
+  </div>
+
+
+  <!--       ************************************* Nicholas ***************************************      -->
+  <!-- Fix Scrabble -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides5 fade">
+        <img src="http://2018.igem.org/wiki/images/0/0d/T--UCSC--Nicholas_1124.png" style="width:100%">
+      </div>
+      <div class="mySlides5 fade">
+        <img src="http://2018.igem.org/wiki/images/0/0f/T--UCSC--Nick_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides5 fade">
+        <img src="http://2018.igem.org/wiki/images/c/cf/T--UCSC--Nick_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides5 fade">
+        <img src="http://2018.igem.org/wiki/images/e/e2/T--UCSC--NickQuote.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Website Team </p>
+    <p class="FullNames"> Nicholas Hammond </p>
+    
+  </div>
+
+
+  <!--       ************************************* Larry ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides6 fade">
+        <img src="http://2018.igem.org/wiki/images/9/9e/T--UCSC--Larry_1097.png" style="width:100%">
+      </div>
+      <div class="mySlides6 fade">
+        <img src="http://2018.igem.org/wiki/images/6/6f/T--UCSC--Larry_Description.png" style="width:100%">
+      </div>
+       <div class="mySlides6 fade">
+        <img src="http://2018.igem.org/wiki/images/a/ac/T--UCSC--Larry_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides6 fade">
+        <img src="http://2018.igem.org/wiki/images/5/5e/T--UCSC--LarryFunFact.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Post-Production Team </p>
+    <p class="FullNames"> Larry Hinojos </p>
+    
+  </div>
+
+
+  <!--       ************************************* Justin ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides12 fade">
+        <img src="http://2018.igem.org/wiki/images/6/6e/T--UCSC--Justin_1092.png" style="width:100%">
+      </div>
+      <div class="mySlides12 fade">
+        <img src="http://2018.igem.org/wiki/images/f/f8/T--UCSC--Justin_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides12 fade">
+        <img src="http://2018.igem.org/wiki/images/d/dc/T--UCSC--Justin_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides12 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c5/T--UCSC--JustinQuote.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Design Team </p>
+    <p class="FullNames"> Justin Lau </p>
+    
+  </div>
+</div>
+
+<br>
+
+
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<!--       ************************************* Row ***************************************      -->
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<div class="row">
+
+
+  <!--       ************************************* Megan ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides7 fade">
+        <img src="http://2018.igem.org/wiki/images/6/63/T--UCSC--Megan_1041.png" style="width:100%">
+      </div>
+      <div class="mySlides7 fade">
+        <img src="http://2018.igem.org/wiki/images/f/fe/T--UCSC--Megan_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides7 fade">
+        <img src="http://2018.igem.org/wiki/images/b/b2/T--UCSC--Megan_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Design Team </p>
+    <p class="FullNames"> Megan Macpherson </p>
+    
+  </div>
+
+
+  <!--       ************************************* Ryan ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides4 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c0/T--UCSC--Ryan_1102.png" style="width:100%">
+      </div>
+      <div class="mySlides4 fade">
+        <img src="http://2018.igem.org/wiki/images/9/90/T--UCSC--Ryan_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides4 fade">
+        <img src="http://2018.igem.org/wiki/images/6/64/T--UCSC--Ryan_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides4 fade">
+        <img src="http://2018.igem.org/wiki/images/7/72/T--UCSC--RyanFunFact.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Website Team </p>
+    <p class="FullNames"> Ryan Modlin</p>
+    
+  </div>
+
+
+ <!--       ************************************* Dante ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides10 fade">
+        <img src="http://2018.igem.org/wiki/images/4/49/T--UCSC--Dante_1003.png" style="width:100%">
+      </div>
+      <div class="mySlides10 fade">
+        <img src="http://2018.igem.org/wiki/images/5/50/T--UCSC--Dante_Description2.png" style="width:100%">
+      </div>
+      <div class="mySlides10 fade">
+        <img src="http://2018.igem.org/wiki/images/6/60/T--UCSC--Dante_MQ.png" style="width:100%">
+      </div>
+      <div class="mySlides10 fade">
+        <img src="http://2018.igem.org/wiki/images/6/64/T--UCSC--DanteFunFact.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Protocol Team </p>
+    <p class="FullNames"> Dante Moreno </p>
+    
+  </div>
+
+
+  <!--       ************************************* Arash ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides11 fade">
+        <img src="http://2018.igem.org/wiki/images/4/43/T--UCSC--Arash_1073.png" style="width:100%">
+      </div>      
+      <div class="mySlides11 fade">
+        <img src="http://2018.igem.org/wiki/images/6/6c/T--UCSC--Arash_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides11 fade">
+        <img src="http://2018.igem.org/wiki/images/d/d3/T--UCSC--Arash_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 10)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 10)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Post-Production Team </p>
+    <p class="FullNames"> Arash Parsa </p>
+    
+  </div>
+</div>
+<br>
+
+
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<!--       ************************************* Row ***************************************      -->
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<div class="row">
+
+
+  <!--       ************************************* Jessica ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides8 fade">
+        <img src="http://2018.igem.org/wiki/images/d/d6/T--UCSC--Jessica_1083.png" style="width:100%">
+      </div>
+      <div class="mySlides8 fade">
+        <img src="http://2018.igem.org/wiki/images/f/f4/T--UCSC--Jessica_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides8 fade">
+        <img src="http://2018.igem.org/wiki/images/e/ec/T--UCSC--Jessica_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Outreach Team </p>
+    <p class="FullNames"> Jessica Scherer </p>
+    
+  </div>
+
+
+  <!--       ************************************* Harman ***************************************      -->
+  <!-- Fix Scrabble -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides13 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c7/T--UCSC--Harman_1117.png" style="width:100%">
+      </div>
+      <div class="mySlides13 fade">
+        <img src="http://2018.igem.org/wiki/images/d/dc/T--UCSC--Harman_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides13 fade">
+        <img src="http://2018.igem.org/wiki/images/2/23/T--UCSC--Harman_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Design Team </p>
+    <p class="FullNames"> Harman Singh </p>
+    
+  </div>
+
+
+ <!--       ************************************* Laura ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides14 fade">
+        <img src="http://2018.igem.org/wiki/images/b/b4/T--UCSC--Laura_1013.png" style="width:100%">
+      </div>
+      <div class="mySlides14 fade">
+        <img src="http://2018.igem.org/wiki/images/3/3d/T--UCSC--Laura_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides14 fade">
+        <img src="http://2018.igem.org/wiki/images/2/22/T--UCSC--Laura_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Protocol Team </p>
+    <p class="FullNames"> Laura Valine </p>
+    
+  </div>
+
+
+  <!--       ************************************* Manny ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides3 fade">
+        <img src="http://2018.igem.org/wiki/images/f/f7/T--UCSC--Manuel_1144.png" style="width:100%">
+      </div>
+      <div class="mySlides3 fade">
+        <img src="http://2018.igem.org/wiki/images/6/65/T--UCSC--Manny_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides3 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c8/T--UCSC--Manuel_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Website Team </p>
+    <p class="FullNames"> Manuel Varela </p>
+    
+  </div>
+</div>
+<br>
+
+
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<!--       ************************************* Row ***************************************      -->
+<!--       *********************************************************************************      -->
+<!--       *********************************************************************************      -->
+<div class="row">
+
+
+  <!--       ************************************* Vanessa ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides16 fade">
+        <img src="http://2018.igem.org/wiki/images/2/2f/T--UCSC--Vanessa_1018.png" style="width:100%">
+      </div>
+      <div class="mySlides16 fade">
+        <img src="http://2018.igem.org/wiki/images/a/ad/T--UCSC--Vanessa_Description.png" style="width:100%">
+      </div>
+      <div class="mySlides16 fade">
+        <img src="http://2018.igem.org/wiki/images/2/2d/T--UCSC--Vanessa_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 15)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 15)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Post-Production Team </p>
+    <p class="FullNames"> Vanessa Ventura </p>
+    
+  </div>
+
+
+  <!--       ************************************* David ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides18 fade">
+        <img src="http://2018.igem.org/wiki/images/c/c8/T--UCSC--David_1032.png" style="width:100%">
+      </div>
+      <div class="mySlides18 fade">
+        <img src="http://2018.igem.org/wiki/images/0/0c/T--UCSC--David_Description2.png" style="width:100%">
+      </div>
+      <div class="mySlides18 fade">
+        <img src="http://2018.igem.org/wiki/images/9/9a/T--UCSC--David_MQ.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 17)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 17)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Primary PI </p>
+    <p class="FullNames"> David Bernick </p>
+    
+  </div>
+
+
+  <!--       ************************************* Mckenna ***************************************      -->
+  <!-- Fix Description -->
+  <div class="column">  
+    <div class="slideshow-container">
+      <!-- Images -->
+      <div class="mySlides19 fade">
+        <img src="http://2018.igem.org/wiki/images/0/01/T--UCSC--Mckenna.png" style="width:100%">
+      </div>
+      <div class="mySlides19 fade">
+        <img src="http://2018.igem.org/wiki/images/9/96/T--UCSC--Mckenna_Description.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 18)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 18)">&#10095;</a>
+    </div>
+    <p class="PersDesc"> Mentor </p>
+    <p class="FullNames"> Mckenna Hicks </p>
+    
+  </div>
+</div>
+
+
+<br>
+
+
+
+<script>
+
+var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4",  "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15", "mySlides16", "mySlides17", "mySlides18", "mySlides19", "mySlides20"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+showSlides(1, 6);
+showSlides(1, 7);
+showSlides(1, 8);
+showSlides(1, 9);
+showSlides(1, 10);
+showSlides(1, 11);
+showSlides(1, 12);
+showSlides(1, 13);
+showSlides(1, 14);
+showSlides(1, 15);
+showSlides(1, 16);
+showSlides(1, 17);
+showSlides(1, 18);
+showSlides(1, 19);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+x[slideIndex[no]-1].style.display = "block";
+  
+}
+
+
+</script>
+
+
+</body>
+</html>
+{{:Team:UCSC/Footer}}
