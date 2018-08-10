@@ -1,0 +1,117 @@
+<html>
+<style>
+
+
+/* Catamaran Font -- Size: 900 (Black) */
+@font-face {
+    font-family: 'catamaranblack';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/3/3e/T--UCSC--catamaran-900-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/3/37/T--UCSC--catamaran-black-webfont.woff') format('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/4/47/T--UCSC--catamaran-900-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 700 (Bold) */
+@font-face {
+    font-family: 'catamaranbold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/a/a6/T--UCSC--catamaran-700-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/d/dc/T--UCSC--catamaran-bold-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/5/50/T--UCSC--catamaran-700-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 800 (Extrabold) */
+@font-face {
+    font-family: 'catamaranextrabold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/0/02/T--UCSC--catamaran-800-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/7/7c/T--UCSC--catamaran-extrabold-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/e/e1/T--UCSC--catamaran-800-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 200 (Extralight) */
+@font-face {
+    font-family: 'catamaranextralight';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/2/26/T--UCSC--catamaran-200-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/1/1e/T--UCSC--catamaran-extralight-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/2/20/T--UCSC--catamaran-200-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 300 (Light) */
+@font-face {
+    font-family: 'catamaranlight';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/7/7d/T--UCSC--catamaran-300-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/8/88/T--UCSC--catamaran-light-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/0/02/T--UCSC--catamaran-300-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 500 (Medium) */
+@font-face {
+    font-family: 'catamaranmedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/e/e2/T--UCSC--catamaran-500-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/6/6b/T--UCSC--catamaran-medium-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/4/40/T--UCSC--catamaran-500-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 400 (Regular) */
+@font-face {
+    font-family: 'catamaranregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/8/83/T--UCSC--catamaran-400-webfont-3.eot'); /* IE9 Compat Modes */
+    src:  url('http://2018.igem.org/wiki/images/0/0d/T--UCSC--catamaran-regular-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/7/7e/T--UCSC--catamaran-400-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+/* Catamaran Font -- Size: 600 (Semi Bold) */
+@font-face {
+    font-family: 'catamaransemibold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/2/2e/T--UCSC--catamaran-600-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/4/40/T--UCSC--catamaran-semibold-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/9/97/T--UCSC--catamaran-600-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/* Catamaran Font -- Size: 100 (Thin) */
+@font-face {
+    font-family: 'catamaranthin';
+    font-weight: normal;
+    font-style: normal;
+    src: url('http://2018.igem.org/wiki/images/4/47/T--UCSC--catamaran-100-webfont-3.eot'); /* IE9 Compat Modes */
+    src: url('http://2018.igem.org/wiki/images/9/93/T--UCSC--catamaran-thin-webfont.woff') format ('woff'), /* Chrome, Firefox */
+           url('http://2018.igem.org/wiki/images/7/72/T--UCSC--catamaran-100-webfont-1.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+</style>
+</html>
