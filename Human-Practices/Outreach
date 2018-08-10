@@ -1,0 +1,500 @@
+{{:Team:UCSC/NavBar}}
+
+<html style="overflow-x: hidden;">
+
+<style>
+
+#country_list .flex-col {
+  min-width: 8em;
+}
+
+#country_list .flex-col ul, #country_list .flex-col li {
+  list-style: none;
+  margin: 0;
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2{
+  display: none
+}
+
+</style>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="iFrame message passing test">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" >
+
+<body style="overflow-x: hidden;">
+
+  <div class="header-image" id="header_image_humanPractices" style="background-image: url(http://2018.igem.org/wiki/images/e/ee/T--UCSC--Joy_Women%27s_Pic1.png); background-position: 50% 50%">
+    <p class="header-title">
+      Human Practices
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
+
+
+  <div class="flex-row" id="top_row">
+
+    <div class="flex-col">
+<br>
+      <p class="p-title">Worldwide Connections - A UCSC Tradition:</p>
+      <p>The iGEM Competition pushes teams to work to improve quality of life. To help the world requires an understanding of what the world is asking for; as the 6th UCSC iGEM team, we uphold the reputation of UCSC investing heavily in worldwide outreach to not only spread the word about our project, but to understand the impact of our project on a personal level. Through these personal connections, we evaluated potential issues related to our project including stigma, price, ethics, safety, security, and sustainability.</p>
+    </div>
+  </div>
+
+<div class="flex-row">
+    <div class="flex-col" id="Info Title 1" style="paddindpmg-right:0px">
+<blockquote><p class="quotation" style="font-size:1.5em !important;margin-right: -2.7em;padding-right:0px !important"> 
+  Women die all the time from illegal abortions.</p>
+<footer>— Guillermo Rodriguez, Peruvian Citizen</footer>
+</blockquote>
+</div>
+    <div class="flex-col" id="Info Title 1" style="">
+<blockquote><p class="quotation" style="font-size:1.5em !important;margin-right: -2.7em;padding-right:0px !important"> 
+  Stigma is fueling the high birth rates due to embarrassed reluctance of people to purchase [contraception] in public</p>
+<footer>— Masika Vicky, Rita Women’s Group</footer>
+</blockquote>
+</div>
+<div class="flex-col" id="Info Title 1" style="">
+<blockquote><p class="quotation" style="font-size:1.5em !important;margin-right: -2.7em;padding-right:0px !important"> 
+  We have been looking for a safe birth control method.</p>
+<footer>— Esther, Kyogha Women</footer>
+</div></div>
+
+<div class="flex-row">
+    <div class="flex-col" id="Info Title 1" style="padding-right:0px">
+<blockquote><p class="quotation" style="font-size:1.5em !important;margin-right:-2.7em;padding-right:0px !important"> 
+  [Stigma is a result of] poor and false teaching of religious leaders and ignorance of rural people.</p>
+<footer>— Kabugho Beatrace, Kinywankoko United Women Association</footer>
+</blockquote>
+</div>
+    <div class="flex-col" id="Info Title 1" style="">
+<blockquote><p class="quotation" style="font-size:1.5em !important;margin-right:-2.7em;padding-right:0px !important"> 
+  Women are interested in birth control methods to assist them [to] plan for their few children produced instead of producing many children which cannot be cared for.</p>
+<footer>— Evelyn Lewsley, Promote Africa</footer>
+</blockquote>
+</div></div>
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+
+
+<div class="flex-row">
+    <div class="flex-col" id="Info Title 1">
+      <p class="p-title">Inspiration:</p>
+      <p>Before choosing a project topic, our team emailed over 50 WHO representatives around the globe to determine the most pressing issues. With the women’s rights movement on the rise, the UCSC 2018 iGEM team wanted to prompt the discussion of women’s health at this year’s competition. We determined that many less-developed countries struggle to access contraception because of stigma, location, and cost. Our goal was to target those countries to test if they’d be interested in our new contraception method, and willing to speak with us regarding their personal experiences.
+      </p>
+    </div>
+
+    <div class="flex-col" id="Info Title 2">
+      <p class="p-title">Execution:</p>
+      <p>Our outreach team contacted several big organizations, associations, and foundations for help on finding locals willing to speak to us. Not many of them got back to us, so we instead went an alternative route. We searched GoFundMe and found a group of women in Uganda known as the Joy Women’s Group asking for money to help buy condoms for their community. They were funded through the Brighter Brains Institute (BBI) and we quickly contacted the BBI who put us into contact with three local women’s groups in Uganda. Through word of mouth, we reached 7 additional women’s groups. We created a questionnaire for locals to fill out to have more uniform responses. Their response to our efforts prompted us to reach out to other groups in 15 more countries to further spread our word and evaluate the need for cheaper, more accessible birth control.</p>
+    </div>
+
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title">Execution:</p>
+      <p> Receiving numerous responses from countries world wide, we were able to reach out to both men and women, and assist them in vocalizing their thoughts, feelings, and experiences. By means of a questionnaire and close conversations with numerous people, we were able to gain an accurate understanding of how challenging it is to not only access birth control, but maintain access to it. Every day for the past three months, our team has striven to create close-knit bonds between varying clinics, organizations, and women and men and receive such honest and real responses.</p>
+    </div>
+
+  </div>
+
+
+
+<br>
+
+<!-----------------------------------------------THE MAP---------------------------------------------------------->
+<div class="flex-row" id="top_row">
+<h2 id="MapTitle" class="section-title" style="margin-bottom:10px;">Use our Interactive Map Below!</h2>
+<h2 id="mobileMapTitle" class="section-title" style="display:none;">Our Connections</h2>
+<body>
+<img id="mapID" src="http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png" usemap="#image-map" width="100%" height="100%">
+	<map name="image-map">
+<!-- Empty -->
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/3/3c/T--UCSC--World_Map-USA2.png'" coords="" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" alt="" title="" href="">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/3/3c/T--UCSC--World_Map-USA2.png'" coords="270,362,246,355,234,345,233,302,265,263,258,250,267,223,252,199,226,194,202,199,141,218,170,203,151,196,158,186,197,169,173,169,180,157,209,160,201,147,245,138,270,136,292,140,313,141,250,194,269,199,270,218,257,250,267,257,403,257,418,260,415,269,442,269,416,298,439,277,442,289,442,301,467,289,520,266,524,281,496,296,467,321,457,345,426,363,426,391,420,399,411,375,386,367,382,375,354,373,337,396,320,371,308,374,302,359,288,364" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'"  alt="United States of America" title="United States of America" href="#USA">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/4/4a/T--UCSC--World_Map-Mexico2.png'" coords="247,359,247,374,253,394,268,407,257,366,274,394,288,417,286,430,317,450,338,450,350,458,361,446,381,440,383,421,367,419,356,434,342,436,334,419,334,397,323,388,323,374,307,376,301,359" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" alt="Mexico" title="Mexico" href="#Mexico">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/f/f9/T--UCSC--World_Map-New_Zealand.png'" coords="1726,773,1686,798,1636,835,1621,816,1675,784,1697,748" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" alt="New Zealand" title="New Zealand" href="#New Zealand">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/4/4d/T--UCSC--World_Map-Colombia.png'" coords="434,486,453,476,449,493,456,505,465,510,477,513,477,537,465,544,466,567,451,561,436,549,417,542,426,522,422,506" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" alt="Colombia" title="Colombia" href="#Colombia">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/9/97/T--UCSC--World_Map-Uganda.png'" coords="999,526,1012,524,1021,534,1014,550,1006,550,990,558" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" href="#Uganda" title="Uganda" alt="Uganda">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/8/86/T--UCSC--World_Map-India.png'" coords="1206,342,1222,339,1230,349,1232,361,1245,368,1242,376,1264,388,1281,392,1284,380,1300,392,1310,380,1325,376,1330,387,1320,390,1318,404,1315,414,1301,398,1288,398,1293,417,1286,426,1284,432,1256,461,1256,489,1239,500,1227,478,1213,448,1210,426,1199,427,1186,409,1201,407,1191,390,1205,374,1213,354" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" href="#India" title="India" alt="India">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b4/T--UCSC--Map--UK.jpg'" coords="817,247,841,247,849,235,830,215,836,206,822,198,815,208,822,222,822,233" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" href="#UnitedKingdom title="United Kingdoms" alt="United Kingdoms">
+"
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/6/6b/T--UCSC--Map--Italy.jpg'" coords="868,281,895,269,902,278,904,288,914,296,929,310,912,322,910,308,895,298,885,283,885,286" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" href="#Italy" title="Italy" alt="Italy">
+
+<area onmouseover="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/2/20/T--UCSC--Map--Peru.jpg'" coords="438,553,463,567,451,577,443,592,448,604,461,609,470,616,472,625,470,659,441,636,427,613,415,592,405,572,415,577,429,563,436,562" shape="poly" onmouseout="document.getElementById('mapID').src='http://2018.igem.org/wiki/images/b/b1/T--UCSC--MapOfConnections.png'" href="#Peru" title="Peru" alt="Peru">
+</map>
+</div>
+<br>
+
+
+
+<!-------------------------------------------------------------------------------------------->
+<form>
+<div id="selectMenu" class="ui-field-contain" style="display:none">
+    <label for="select-native-4">Select a country to learn more:</label>
+    <select name="select-native-4" id="select-native-4" style="width: 90%;margin-left:5%;height:3em;text-align:center;justify-content:center;">
+        <option>Choose...</option>
+        <optgroup label="Africa">
+            <option value="#Uganda" href="#Uganda">Uganda</option>
+        </optgroup>
+        <optgroup label="Asia">
+            <option value="#India">India</option>
+        </optgroup>
+        <optgroup label="Europe">
+            <option value="5">Europe</option>
+  
+        </optgroup>
+        <optgroup label="North America">
+            <option value="5">Mexico</option>
+            <option value="6">United States</option>
+        </optgroup>
+        <optgroup label="Oceania">
+            <option value="5">New Zealand</option>
+        </optgroup>
+        <optgroup label="South America">
+            <option value="5">Colombia</option>
+        </optgroup>
+    </select>
+</div>
+</form>
+
+<!---------------------------------------------List of Countries---------------------------------------------->
+
+<!-- listed alphabetically -->
+
+<div class="flex-row small-divide centered" id="country_list">
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">Africa</p>
+    <ul>
+      <li><a href="#Uganda">Uganda</a></li>
+    </ul>
+  </div>
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">Asia</p>
+    <ul>
+      <li><a href="#India">India</a></li>
+<!--      <li><a href="#NewZealand">New Zealand</a></li> -->
+    </ul>
+  </div>
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">Europe</p>
+    <ul>
+      <li><a href="#Italy">Italy</a></li>
+      <li><a href="#UK">United Kingdom</a></li>
+      
+    </ul>
+  </div>
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">North America</p>
+    <ul>
+      <li><a href="#Mexico">Mexico</a></li>
+      <li><a href="#USA">United States</a></li>
+    </ul>
+  </div>
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">Oceania</p>
+    <ul>
+      <li><a href="#NewZealand">New Zealand</a></li>
+    </ul>
+  </div>
+
+  <div class="flex-col">
+    <p class="p-title" style="text-align:center !important">South America</p>
+    <ul>
+      <li><a href="#Colombia">Colombia</a></li>
+      <li><a href="#Peru">Peru</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<br>
+<hr>
+
+<!-------------------------------------------Countries Info------------------------------------------------------>
+
+<!----------------------------------------------Colombia------------------------------------------------------>
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="Colombia"><img class="iconImage" src="http://2018.igem.org/wiki/images/e/e7/T--UCSC--ColombiaIcon.jpg">Colombia:</p>
+<p class="p-2-title week">Yeraldin Naranjo, Colombian Citizen:</p>
+      <p>Through a personal connection with a team member, we met Yeraldin Naranjo, a Colombian-born citizen. She believes that our birth control method is a meaningful pursuit. According to Naranjo, “there are many unwanted pregnancies in Colombia, but it is a problem because there is no money to buy them.” She has had personal experiences with unplanned pregnancies in her family, but wishes not to publish them here. Naranjo believes that because there are high birth rates in Colombia, an easy, affordable birth control option could minimize the amount of unplanned pregnancies. She did not know of any specific rumors on birth control in Colombia, but she contributed this to birth control not being discussed much (neither negatively or positively). We believe that our contraception brochure could heavily benefit her uninformed community.</p>
+    </div>
+</div>
+
+<!----------------------------------------------India-------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="India"><img class="iconImage" src="http://2018.igem.org/wiki/images/a/aa/T--UCSC--IndiaIcon.jpg">India:</p>
+<p class="p-2-title week">Foundation for Mother and Child Health:</p>
+      <p>Through a connection with our PI, David Bernick, we met Piyasree Mukherjee, CEO of the Foundation for Mother and Child Health in India. According Ms. Mukherjee,  her community possesses differing views on birth control. Some deem birth control a “money trap” because it requires multiple rounds of a prescription or device replacement. Others are skeptical and/or not knowledgeable about birth control because of the lack of information. Our team knows that birth control is expensive, but this was the first time that we heard that women feel gouged by necessary recurrent purchases of birth control methods.We will continue to update this information when questionnaires arrive.</p>
+    </div>
+</div>
+
+<!----------------------------------------------Italy--------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="Italy"><img class="iconImage" src="http://2018.igem.org/wiki/images/f/f1/T--UCSC--ItalyIcon.jpg">Italy:</p>
+<p class="p-2-title week">Keziah, Frequent Traveler & Student:</p>
+      <p>Our team spoke with a Keziah, a friend of the team and a frequent traveler between Italy and the US.  During her travels to Italy, Keziah found it difficult to use her preferred form of birth control and was instead pushed to use an IUD. IUDs, although common, are accompanied by potential painful side-effects. Keziah described her first IUD experience as “super painful”. IUDs last 3-6 years, and Keziah eventually needed to get her IUD replaced. Doctors informed her that her cervix was too small for the second IUD, so she received medicine to soften her cervix. Withstanding torturous cramps during the process, she relays, “if it hurt that [much] putting it in, I’m worried about getting it out”. We asked Keziah about religious implications of birth control in Italy, and she described that Italy is a heavily Catholic country. In most cases, religious leaders discourage use of birth control methods because they view it as “sin”. Regardless of Italy having easier access to contraceptives, the country’s religious overtones halt many from pursuing birth control for fear of harassment and ostracism.</p>
+    </div>
+</div>
+
+<!----------------------------------------------Mexico-------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="Mexico"><img class="iconImage" src="http://2018.igem.org/wiki/images/b/bb/T--UCSC--MexicoIcon.jpg">Mexico:</p>
+      <p>We are currently working on updating information. We will update as it becomes available.</p>
+    </div>
+</div>
+
+<!----------------------------------------------New Zealand-------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="NewZealand"><img class="iconImage" src="http://2018.igem.org/wiki/images/9/94/T--UCSC--NewZealand.jpg">New Zealand:</p>
+      <p>We are currently working on updating information. We will update as it becomes available.</p>
+    </div>
+</div>
+
+<!----------------------------------------------Peru------------------------------------------------------------>
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="Peru"><img class="iconImage" src="http://2018.igem.org/wiki/images/7/7c/T--UCSC--PeruIcon.jpg">Peru:</p>
+<p class="p-2-title week">Guillermo Rodriguez, Previous Peru Citizen:</p>
+      <p>Guillermo Rodriguez is a close family friend of one of our iGEM members. He moved to the U.S in the late 70’s, but visits his family in Peru at least once a year. Guillermo has witnessed both Peru’s innovations and follies over the decades as he’s travelled between countries. In the 70’s and 80’s, birth control was very expensive, and only people of higher economic status had access to it. Now, as a predominantly Catholic society, many Peruvians don’t support the use of birth control in general. In most cases, those in need of birth control are the ones who can’t afford it. Besides cost, access to birth control is also an issue. According to Guillermo, Peruvians “have social services available to help, but no outreach programs since many women live in the mountains of Peru away from the capital”. Peru is also a male-dominated society, and many husbands/boyfriends “don’t believe in birth control and are against it out of ignorance”. It’s no surprise then that Peru has an extremely high rate of illegal abortions. Guillermo explained that “women die all the time” from illegal abortions. Interestingly enough, he wonders if the design of our product would entice women to try. The most common form of birth control in Peru is birth control pills, which are easy to identify given their recognizable packaging. Our product would grow as a yeast, and the user could press the dried yeast herself to form a pill. This process is less recognizable than normal birth control pills  and may be appealing for women who face a male-dominated society that doesn’t approve of birth control use. This viewpoint hadn’t occurred to our team before, and we now hope to incorporate this angle into our advertisement of our new birth control method.</p>
+</div></div>
+
+<!----------------------------------------------Uganda-------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+  <p class="p-title week" id="Uganda"><img class="iconImage" src="http://2018.igem.org/wiki/images/1/10/T--UCSC--UgandaIcon.jpg">Uganda:</p>
+<!------------------->
+    <p class="p-2-title week">Basaliza Women Development Association (BAWODA):</p>
+      <p>BAWODA is group of women leaders spread all throughout Uganda. Our outreach team spoke with Joy Muhindo, the chairperson of BAWODA. She informed us that the stigma on birth control in Uganda arose because women began trying unsafe birth control methods that had very dangerous side effects. Many women heard of these birth control methods and assumed that all birth control methods were this dangerous. Their group encourages condom use if women cannot access safer birth control methods. While their group is willing to try our new method, they hope that we also encourage condom use on top of our contraception because of the prevalence of HIV/AIDS in poorer countries. We hadn’t considered that condom use is still necessary on top of our birth control since ours cannot protect against AIDS, so this was very important information for us to receive.
+</p>
+<!------------------->
+    <p class="p-2-title week">Buhanga Thuligahuma Women's Group:</p>
+<div class="flex-row" style="margin-top: 0; flex-grow:1">
+    <div class="flex-col" style="margin-top: 3vh;">
+    <div class="slideshow-container2">
+      <!-- Images -->
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/e/e6/T--UCSC--Buhanga2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides1 fade">
+        <img src="http://2018.igem.org/wiki/images/b/b0/T--UCSC--Buhanga1.jpg" style="width:100%">
+      </div>
+      <a class="prev2" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next2" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    </div>
+<div class="flex-col" style="margin-top: 3vh; flex-grow:2">
+<p>Through the recommendation of Hank Pellissier of BBI, our team contacted a Buhangan villager named Masereka Sebastian. Buhanga is a rural village of 2,000 people, and all are members of the BaKonzo tribe. The village is extremely isolated. According to Masereka Sebastian, you can't drive a car there--you have to walk 3 kilometers or take a dirt bike there. Being that Masereka Sebastian owns a dirt bike and can access printing shops outside of the village, our iGEM team contacted him to print our questionnaires for distribution to the local Buhanga Women. We had over 42 women interested in taking our survey, but we limited the number to ten. The women chosen to participate in our research were left to the discretion of Sebastian. Some women chose not to have their answers published as well. From their questionnaire responses, we learned how expensive contraception methods are, and how many women’s husbands don’t respond positively to them using birth control. As with the other questionnaire responses, more of the same rumors were brought up; specifically, that birth control can cause cancer or infertility. We also learned that Uganda is a heavily Catholic country. According to one of the Buhangan women participants, many Catholic churches discourage women from using birth control and compare it to killing (similar to opinions on abortion). No other groups have mentioned religion in their responses, so we were very grateful that the Buhanga Women informed us of this discouragement. We hope the brochure our team is working on will address many of these rumors.
+</p>
+</div>
+</div>
+<!------------------->
+
+    <p class="p-2-title week" id="#JWG">Joy Women's Group:</p>
+
+<div class="flex-row" style="margin-top: 0; flex-grow:1">
+    <div class="flex-col" style="margin-top: 3vh;">
+    <div class="slideshow-container2">
+      <!-- Images -->
+      <div class="mySlides2 fade">
+        <img src="http://2018.igem.org/wiki/images/a/ac/T--UCSC--Uganda7W.png" style="width:100%">
+      </div>
+      <div class="mySlides2 fade">
+        <img src="http://2018.igem.org/wiki/images/2/2d/T--UCSC--Uganda3W.png" style="width:100%">
+      </div>
+      <a class="prev2" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next2" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    </div>
+<div class="flex-col" style="margin-top: 3vh; flex-grow:2">
+
+
+      <p>The Joy Women’s Group is located in Western Uganda in the Nyamwamba Division of the Kasese Municipality. One of their group’s objectives is to promote nutrition, health and hygienic practices in the community. By far, the Joy Women’s Group is our most active group. Of their 25 group members, each showed heavy interest. We chose to interview seven of their members including their chairperson Mbambu Lavina. According to these seven participants, their community supports the use of contraception. Their community actually has access to contraception through a government healthcare facility known as Naigobya HC III. Naigobya HC III provides family planning services, maternal care, prenatal care, and post-natal care. Through this facility, locals may receive injections or pills as birth control. Similar to the other groups, however, treatment at this facility is expensive. The Joy Women’s Group also presented similar rumors heard by other groups. Their information is invaluable, and our team is very thankful for their participation.
+</p>
+</div></div>
+<!------------------->
+
+    <p class="p-2-title week">Kabwe Rural Women Development Association (KARWODA):</p>
+<div class="flex-row" style="margin-top: 0; flex-grow:1">      
+<div class="flex-col" style="margin-top: 3vh;">
+<img src="http://2018.igem.org/wiki/images/b/b9/T--UCSC--Karwoda.jpeg" class="image-inpage" style="width: 100%;">
+  </div>
+  <div class="flex-col" style="margin-top: 3vh; flex-grow:2">
+<p>Also through the recommendation of Kabugho Beatrace, we met Masika Annet of the Kabwe Rural Women Development Association (KARWODA for short). Beatrace informed Annet that we were looking for more information about birth control methods and/or family planning programs already in practice, and she told us that “most birth control methods that are sold in hospitals, drug shops, and clinics but are inaccessible”. She emphasized that even though options are available, most are far too expensive for the average woman to afford. Many women also fear dangerous side effects such as blocked oviducts and bleeding. Women, instead, revert to condom use which is also accompanied by public shaming if they are seen carrying condoms out of a shop. Shame plays a large part, it seems, in deterring these women from using birth control. As a result, women partake in unprotected sex which result in unwanted pregnancies and STDs. We will address these issues as well in our brochure.
+</p>
+</div>
+</div>
+<!------------------->
+    <p class="p-2-title week">Kinywankoko United Women Association (KUWA):</p>
+      <p>KUWA is a women’s group based in the Kasese Municipality of Uganda. They assist marginalized women in the surrounding villages by providing them condoms, sanitary products, feminine hygiene education, and economic empowerment. They reside in the Bukonzo county which is “rated among the poorest counties where women live below poverty line and one survives on less than one US dollar a day” (Kabugho Beatrace, chairperson of KUWA). Our iGEM team made contact with Kabugho Beatrace through Hank Pellissier of the Brighter Brains Institute (BBI). The Brighter Brains Institute offered to partner with us, as they’ve supplied condoms to Ugandan women in the past and were interested in our new method. According to Kabugho Beatrace, the population of Kasese increases every day due to high birth rates. At the same time, there is also a high infant mortality rate, as mothers are in too poor of health to carry a child. The only contraception available in Bukonzo county are condoms sold in remote pharmacies. According to Kabugho Beatrace, the condoms are placed near registers and customers are often too afraid to be seen purchasing condoms due to the overwhelming stigma on birth control in Uganda. When we spoke with Beatrace, she was very supportive of our new method of contraception. She works closely with other women’s groups in Uganda and contacted them excitedly to discuss our new method and provide us their input on our project’s safety, maintainability, and cost. Our team is extremely grateful for Kabugho Beatrace and the connections she provided us.</p>
+<!------------------->
+
+
+    <p class="p-2-title week">Kyogha Women:</p>
+<div class="flex-row" style="margin-top: 0; flex-grow:1">      
+<div class="flex-col" style="margin-top: 3vh;">
+<img src="http://2018.igem.org/wiki/images/9/95/T--UCSC--Kyogha.jpg" style="width: 100%;" class="image-inpage">
+  </div>
+  <div class="flex-col" style="margin-top: 3vh; flex-grow:2">
+      <p>The Kyogha Women were particularly interesting to speak to. Their chairperson, Esther, informed us that her group has been on the search for advanced, safe birth control methods for a while now. Her group recently visited Makerere University in Uganda to see if they can “make an advanced birth control method that is also accessible with less side effects”. Esther was ecstatic to hear of our approach. She’s spent many years implementing family planning programs and trying to address the stigma on birth control. As with other groups, she mentioned that people fear purchasing birth control because they don’t “want to be laughed at”. We hope that our new birth control method will end Esther’s search for an affordable and safe contraceptive.
+</p>
+</div></div>
+<!------------------->
+    <p class="p-2-title week">Nyakiyumbu Widows Association:</p>
+      <p>When our team reached out to the Nyakiyumbu Widow’s Association, they were quick to reply and showed fascination in our contraception method. Muhindo Nyesi, chairperson of the NWA, stopped replying to our emails soon after. Our team wondered if her group lost interest, but we quickly learned the reason for her absence. Muhindo Nyesi’s nephew was hit by a car and, during recovery, was also brutally attacked by a group of boys. He was in the ICU for several weeks and underwent brain surgery, but finally recovered enough for Muhindo Nyesi to make a trip to the local library to email us back. She provided us responses to our questionnaire and apologized for her absence. We are so grateful for Muhindo Nyesi’s dedication to our project, especially in these difficult times for her family.
+</p> 
+ <p> The responses we received on behalf of Muhindo Nyesi were different than the others we’ve collected. One woman argued that having more accessible contraception encourages youth to become sexually active at earlier ages. Her viewpoint was similar to that of a woman from India, and our team realized that this was something we must address if we want to encourage more contraception use. We also discovered another method of contraception in Africa: uterus removal. We weren’t aware that such drastic measures are taken in their country, but we now see the importance of our contraception method given these extremes.
+</p>
+<!------------------->
+    <p class="p-2-title week">Promote Africa Foundation:</p>
+      <p>We discovered the Promote Africa Foundation through the Joy Women’s Group. The Promote Africa Foundation is a united women’s group that runs programs related to female reproductive health and women’s rights. According to Evelyn Lewsley, the leader of the PAF, they “encourage women to space their children because most children are abandoned by families who fail to provide for their children”. The Promote Africa Foundation encourages birth control methods throughout the Kasese District, and they’re currently encouraging birth control injections, but struggle to get women to participate since injections may cause bleeding. The Promote Africa Foundation is excited to work with us as they hope our birth control method will be safer for the women in Uganda.</p>
+<!------------------->
+    <p class="p-2-title week">Rita Women Development Association:</p>
+      <p>The Rita Women Development Association resides in the Rwenzori region of Western Uganda. This group empowers women in their community and prevent the spread of sexually-transmitted diseases. Through the recommendation of Kabugho Beatrace of KUWA, we made contact with the Rita women. Masika Vicky, the chairperson of Rita, informed us that there is a lot of stigma on contraception use (primarily condoms because they are the only contraception available). Currently, their group is working on an anti-HIV/AIDS campaign because there is a high rate of people affected by the virus in the Rwenzori region. The spread of HIV/AIDS stems from the stigma on contraception use; according to Masika Vicky, 98% of people fear to buy condoms in public and therefore have unprotected sex despite the outbreak of HIV/AIDS. This stigma also correlates with the high birth rates, similar to those seen in the Kasese Municipality where KUWA resides. Masika Vicky relayed that “Uganda is now highly populated, so we are encouraging family planning.” We spoke to five Rita women about their opinions on our progesterone-producing yeast and they all were excited for a contraception method containing natural progesterone (as opposed to progestin, the synthetic form of progesterone). One Rita member informed us that they’ve initiated “related programmes to teach women about reproductive health and child spacing”. We are grateful to work with a group with similar goals to ours, and we appreciate the insight their questionnaire responses provided us.</p>
+<!------------------->
+    <p class="p-2-title week"></p>
+      <p></p>
+    </div>
+</div>
+
+<!----------------------------------------------United Kingdom-------------------------------------------------------->
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="UK"><img class="iconImage" src="http://2018.igem.org/wiki/images/f/f4/T--UCSC--UnitedKingdomIcon.jpg">United Kingdom:</p>
+<p class="p-2-title week">Dr. Pam Lowe, Aston University:</p>
+      <p>Our team spoke to a woman from the United Kingdom known as Pam Lowe. Dr. Pam is the Senior Lecturer for the Department of Sociology and Policy at Aston University. Dr. Lowe is well known for her strong opinions on the unspoken ‘two-child policy’ in the United Kingdom. According to Dr. Lowe, the only stigma on birth control is not on those who use it, but rather it’s on those who DON’T. Fortunately for the UK, birth control is free within the National Health Service-- even for teenagers. Many teenagers take advantage of this system since the NHS does not notify parents for use of services. Even migrants make use of sexual health clinics in the UK since the NHS does not require a valid ID. In Dr. Lowe’s opinion, the UK most likely isn’t in need for a new birth control method; she does suggest, however, that we contact the NHS to inquire about their using of our method if it is as cost-effective as the ones they currently encourage. Dr. Lowe’s information was extremely valuable, as it shows the duality of situation for poorer countries like Uganda versus those in heavily-developed countries like the UK.
+</p>
+    </div>
+</div>
+
+<!----------------------------------------------United States of America------------------------------------------>
+<div class="flex-row">
+<div class="flex-col" id="Info Title 2">
+      <p class="p-title week" id="USA"><img class="iconImage" src="http://2018.igem.org/wiki/images/7/72/T--UCSC--UnitedStatesOfAmericaIcon.jpg">United States of America:</p>
+<p class="p-2-title week">Family Planning 2020:</p>
+      <p>Family Planning 2020 (FP2020) is a well-known global partnership that supports women’s rights related to sexual and reproductive health. They are a subsection of the United Nations Foundation and are famous for partnering with the Bill and Melinda Gates Foundation to spread birth control information and awareness. By 2020, they want to expand access to family planning “information, services, and supplies to women in 69 of the world’s poorest countries”. FP2020 has contacts all around the world working to increase access to birth control, and our team felt they would be a perfect partner to help us expand our outreach further. We sent a request for a meeting and after a few weeks, Madeleine Dimarco reached out to schedule us an interview with Martyn Smith, Managing Director of FP2020. We will update this information after our August 7th interview.</p>
+<p class="p-2-title week">Local Santa Cruz County:</p>
+      <p><span style="color:#f52153">Secondary School Outreach- </span>We are currently working on updating information. We will update as it becomes available.</p>
+      <p><span style="color:#f52153">Contact with Various Health Centers- </span>We are currently working on updating information. We will update as it becomes available.</p>
+      <p><span style="color:#f52153">UCSC Class Presentations- </span>We are currently working on updating information. We will update as it becomes available.</p>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------>
+
+<div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <p>
+        The PoPPY team would like to thank everyone who has helped make this project possible. For the past five years, undergraduates at UCSC have participated in iGEM. This year, the team is composed of students studying Bioengineering, Bioinformatics, Bioengineering (Assistive Technology: Motor), Molecular, Cellular, and Developmental Biology, Marine Biology, and Cognitive Science: Artificial Intelligence and Human Computer Interaction. Our diverse group of individuals is crucial for the creative process behind using synthetic biology to help others. Modern engineering demands collaboration between individuals and pushes them to think critically and work efficiently. Through synthetic biology, the 2018 UCSC iGEM team is creating effective solutions and developing models for future success.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+
+
+
+
+
+<div id="preload">
+   <img src="http://2018.igem.org/wiki/images/3/3c/T--UCSC--World_Map-USA2.png" width="1" height="1" alt="Image 01" />
+   <img src="http://2018.igem.org/wiki/images/f/f9/T--UCSC--World_Map-New_Zealand.png" width="1" height="1" alt="Image 02" />
+   <img src="http://2018.igem.org/wiki/images/4/4a/T--UCSC--World_Map-Mexico2.png" width="1" height="1" alt="Image 03" />
+   <img src="http://2018.igem.org/wiki/images/4/4d/T--UCSC--World_Map-Colombia.png" width="1" height="1" alt="Image 04" />
+   <img src="http://2018.igem.org/wiki/images/9/97/T--UCSC--World_Map-Uganda.png" width="1" height="1" alt="Image 05" />
+   <img src="http://2018.igem.org/wiki/images/8/86/T--UCSC--World_Map-India.png" width="1" height="1" alt="Image 06" />
+</div>
+
+
+<!------------------------------------------------------------------------------------->
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://davidjbradshaw.com/imagemap-resizer/js/imageMapResizer.min.js"></script>
+	<script type="text/javascript">
+
+		$('map').imageMapResize();
+
+	</script>
+
+<script language="JavaScript">
+document.onload = myFunction();
+function myFunction() {
+   if (window.matchMedia("(min-width:800px)").matches) {
+    document.getElementById("myImg").style="width:0%";
+    }
+    else{
+      document.getElementById("BuhangaImage1").style="float:center;width:100%"
+      document.getElementById("BuhangaImage2").style="float:center;margin-top:20px;width:100%"
+/**      document.getElementById("selectMenu").style="display:block;width:100%;float:center;" **/
+      document.getElementById("mobileMapTitle").style="display:block;margin-bottom:10px"
+      document.getElementById("MapTitle").style="display:none"
+    }
+}
+</script>
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0); showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+x[slideIndex[no]-1].style.display = "block";
+  
+}
+
+</script>
+
+</body>
+</html>
+{{:Team:UCSC/Footer}}
