@@ -78,16 +78,22 @@ This week, we resolved a few issues, including picking a promoter and terminator
       <p class="section-title week" id="Jul16"><span style="font-size: 150%">Week of July 16th</span></p>
         <p>
           <span class="p-title"> Overview - </span>
-This week, our team wrote a thesis! The majority of us put our brains together to create a draft and we chose one excellent editor to take control of the paper. She enlisted grammar police, style monitors, and LaTeX formatters to help her revise our drafted ideas into one cohesive overview of our work to-date. Each of us also wrote about our own contributions to the project and personal reflections describing our feelings towards the journey thus far. 
-While some of us were writing, others were meeting with professors on campus to discuss our ideas and to pick up some S. cerevisiae strains to use as our experimental organism. We learned from Rohinton Kamakaka that we could insert Cre recombinase into our yeast using a plasmid, so now we are in pursuit of a method to both express and remove Cre recombinase once we no longer need it. Our yeast parents have been growing our Y. lipolytica and amplifying the plasmids that we have received. Our wiki boys have almost finished formatting the website to their (or our) liking and are now adding more content about our project itself. A few of our team members scheduled an interview with a representative from Family Planning 2020, but due to timing issues, had to reschedule.
+About half the team spent the week drafting our thesis. While some of us were writing, others were meeting with professors on campus to discuss our ideas and to pick up some S. cerevisiae strains to use as our experimental organism. We learned from Rohinton Kamakaka that we could insert Cre recombinase into our yeast using a plasmid, so now we are in pursuit of a method to both express and remove Cre recombinase once we no longer need it. Our yeast parents have been growing our Y. lipolytica and amplifying the plasmids that we have received. Our wiki boys have almost finished formatting the website to their (or our) liking and are now adding more content about our project itself. A few of our team members scheduled an interview with a representative from Family Planning 2020, but due to timing issues, had to reschedule.
           <br><br><span class="p-title"> Resolved issues - </span>
-Writing a thesis with 17 different people is tough. Somehow, we managed to write one comprehensive paper.
+We figured out how we would both express and remove Cre recombinase when it was no longer needed!
         </p>
         <p>
           <br><br><span class="p-title">Experiment Progress:</span>
         </p> <br> <br>
 
       <p class="section-title week" id="Jul23"><span style="font-size: 150%">Week of July 23rd</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+This week, our team wrote a thesis! Or, more accurately, finished writing it. The majority of us put our brains together to create a draft and we chose one excellent editor to take control of the paper. She enlisted grammar police, style monitors, and LaTeX formatters to help her revise our drafted ideas into one cohesive overview of our work to-date. Each of us also wrote about our own contributions to the project and personal reflections describing our feelings towards the journey thus far. 
+Also, our two captains and our PI met Dean Wolf, Dean of Baskin School of Engineering at UC Santa Cruz, Roger Trippel, Senior Director of Development and Individual Giving, and Abigail Kaun, Special Assistant to the Dean. We discussed the project to-date, our outreach efforts, and shared ideas for managing both our and future iGEM UCSC team’s funds. 
+          <br><br><span class="p-title"> Resolved issues - </span>
+Writing a thesis with 17 people is tough! Somehow we managed to pull it off!
+        </p>
         <p>
           <br><br><span class="p-title">Experiment Progress:</span>
           <ul>
@@ -102,6 +108,13 @@ Writing a thesis with 17 different people is tough. Somehow, we managed to write
         </p> <br> <br>
 
       <p class="section-title week" id="Jul30"><span style="font-size: 150%">Week of July 30th</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+This week, the captains held check-ins with each individual on the team to hear concerns and alleviate worries, since we are now halfway through the summer. While the captains were preoccupied with meetings, the rest of the team was working hard as always. Our modeling team started a growth curve for Yarrowia lipolytica so we can better understand the yeast’s growth rate, our riboswitch team began lab work, our plasmid team started linearizing plasmids, and our outreach team continued to update the wiki page and create a presentation for high schoolers. 
+Four of our team members and our PI took a vacation to Minneapolis that wasn’t much of a vacation at all. The small group toured Medtronics Operational Headquarters, Physiological Research Laboratories, and the University of Minnesota Visible Heart Lab. Almost every other second of the trip was spent on the BMES Coulter College Conference, which required teams to come up with a medical solution to a need. Our team focused on hypertension in resource constrained settings and developed a solution in the form of a blood pressure monitoring phone case and app. Even after the conference, the fivesome was hard at work: they met with the University of Minnesota iGEM team, toured their lab, and gave advice about human practices, outreach, and fundraising. 
+          <br><br><span class="p-title"> Resolved issues - </span>
+Our team resolved the awful layout of our office and achieved maximum feng shui. We also fixed several small procedural mistakes by checking our protocols with our awesome TA. 
+        </p>
         <p>
           <br><br><span class="p-title">Experiment Progress:</span>
         </p> <br> <br>
