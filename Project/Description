@@ -1,0 +1,30 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<body>
+
+
+
+  <div class="header-image" id="header_image_description" style="background-image: url(http://2018.igem.org/wiki/images/b/bd/T--UCSC--Description_Background.jpeg); background-position: 45% 50%">
+    <p class="header-title">
+      Description
+    </p>
+  </div>
+
+  <div class="flex-row" id="top_row">
+    <div class="flex-col">
+      <p class="p-title">Overview</p>
+      <p>This year’s project seeks to address the global lack of family planning services. The luxury to choose when, and if, to start a family directly affects one’s ability to pursue an education, sports, a career, etc. Our hope is to localize contraception production and increase availability in developing nations. Progesterone, a hormone naturally produced by women, can be used to suppress ovulation and act as a form of contraception. The yeast strain <i>Yarrowia Lipolytica</i> (<i>Y. Lipolytica</i>), a generally recognized as safe (GRAS) organism by the FDA, has an advanced genetic toolbox and can be easily grown in most environments. We will engineer <i>Y. Lipolytica</i> to produce progesterone with the goal of creating a product that can be used within the home to grow one’s own contraceptives.</p>
+
+      <p class="p-title">Methods</p>
+      <p>We will perform three parallel methods, each having an intended end-product of progesterone-producing <i>Y. lipolytica</i>. In the first experiment, we will use Gibson Assembly to create the gene cassette and homologous recombination to insert the cassette into the <i>Y. lipolytica</i> genome. In the second method, we will use yeast-mediated cloning in Saccharomyces cerevisiae to create the gene cassette and Cre-lox recombination to insert the cassette into the <i>Y. lipolytica</i> genome. In the final method, we will use yeast-mediated cloning to create the gene cassette and Cre-lox recombination to insert the cassette, both within <i>Y. lipolytica</i>. We will quantify the amount of progesterone produced using a riboswitch. </p>
+
+      <p class="p-title">Final Deliverable</p>
+      <p>We will create a progesterone-producing yeast that can grow on whey, a dairy by-product, essentially creating a sustainable and affordable “grow-at-home” contraceptive for women anywhere in the world. </p>
+    </div>
+  </div>
+
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
