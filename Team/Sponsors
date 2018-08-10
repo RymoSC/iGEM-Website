@@ -1,0 +1,99 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<head>
+</head>
+<body>
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/3/34/T--UCSC--SponsorBackground.png); background-position: center">
+    <p class="header-title">
+      Sponsors
+    </p>
+  </div>
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <p class="p-title">Thank You</p>
+      <p>
+        We would like to take this chance to thank all of our sponsors that have made this project possible. If you have free time, please take this opportunity to click on one of the logos below and check out their websites.
+      </p>
+    </div>
+  </div>
+
+
+
+
+<div align="center">
+<footer class="flex-row">
+  <div class="flex-col">
+
+    <div id="firstLink" class="column_body2">
+      <a href="https://www.geneious.com">
+        <div class="image_container2">
+          <img id="firstImage" src="http://assets.geneious.com/manual/8.0/geneious_logo.png" alt="Team Image" style="width:125%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Geneious</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+    <div id="secondLink" class="column_body2">
+      <a href="https://asana.com">
+        <div class="image_container2">
+          <img id="thirdImage" src="http://2018.igem.org/wiki/images/c/c3/T--UCSC--AsanaLogo.png" alt="Team Image" style="width:125%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Asana</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+    <div id="thirdLink" class="column_body2">
+      <a href="https://www.idtdna.com/pages">
+        <div class="image_container2">
+          <img id="fourthImage" src="https://www.roswellpark.org/sites/default/files/idt_logo_2014_outlines.png" alt="Team Image" style="width:125%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">IDT</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+    <div id="fourthLink" class="column_body2">
+      <a href="https://www.zymoresearch.com">
+        <div class="image_container2">
+          <img id="fifthImage" src="http://2018.igem.org/wiki/images/7/74/T--UCSC--ZymoLogo.png" alt="Team Image" style="width:125%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Zymo Research</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+    <div id="fifthLink" class="column_body2">
+      <a href="https://www.vwr.com">
+        <div class="image_container2">
+          <img id="secondImage" src="http://www.aidforum.org/images/sized/images/directory/logos/VWR_WeEnableScience_CMYK-584x189.gif" alt="Team Image" style="width:125%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">VWR Technologies</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
