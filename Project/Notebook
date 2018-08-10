@@ -1,0 +1,185 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_targetOrganism" style="background-image: url(http://2018.igem.org/wiki/images/6/60/T--UCSC--Page_In_Progress.png); background-position: left">
+    <p class="header-title">
+      Notebook
+    </p>
+    <p class="header-title-progress"> Page in Progress </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-toc">
+  <li class="p-title"> Week of: </li>
+  <li><a href="#Jun26"> June 26th </a></li>
+  <li><a href="#Jul2"> July 2nd </a></li>
+  <li><a href="#Jul9"> July 9th </a></li>
+  <li><a href="#Jul16"> July 16th </a></li>
+  <li><a href="#Jul23"> July 23rd </a></li>
+  <li><a href="#Jul30"> July 30th </a></li>
+  <li><a href="#Aug6"> August 6th </a></li>
+  <li><a href="#Aug13"> August 13th </a></li>
+  <li><a href="#Aug20"> August 20th </a></li>
+  <li><a href="#Aug27"> August 27th </a></li>
+  <li><a href="#Sep3"> September 3rd </a></li>
+  <li><a href="#Sep10"> September 10th </a></li>
+  <li><a href="#Sep17"> September 17th </a></li>
+  <li><a href="#Sep24"> September 24th </a></li>
+  <li><a href="#Oct1"> October 1st </a></li>
+  <li><a href="#Oct8"> October 8th </a></li>
+  <li><a href="#Oct15"> October 15th </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+<br>
+
+
+  <div class="flex-row">
+    <div class="flex-col" style="max-width: 1100px;">
+
+      <p class="section-title week" id="Jun26"><span style="font-size: 150%">Week of June 26th</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+Day 1 was mutiny. Five students had met with a sponsor in the morning and when the two captains returned to the room, the students were milling around, whispering under their breath, and fidgeting. The problem was with motivation towards the project, as some students felt that it wasn’t novel enough. We had found a paper form Duport et al. that explained in 1998 how their team developed yeast to produce pregnenolone and progesterone. The things we wanted to make. It turns out though that the paper didn’t lead to anything, the strain has been lost, and it would make a good proof of concept for our idea. From the uprising we learned to communicate thoroughly.
+          <br><br><span class="p-title"> Resolved issues - </span>
+The overview for this week sums up our resolved issues relatively well; people expressed their concerns about the novelty of the project and used their energy to come up with a solution.
+          <br><br><span class="p-title">Experiment Progress:</span>
+</p> <br> <br>
+
+      <p class="section-title week" id="Jul2"><span style="font-size: 150%">Week of July 2nd</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+Our yeast are going to have all the genes to make progesterone, as well as the lactase enzyme so that we can feed them lactose and they break it down to glucose and galactose. We figured out after much deliberation how we could have our friends in developing nations get the accurate dose of progesterone. We learned from our mentor that we could use a technique to measure the weight of an object using a coat hanger, and depending on weight, calculate the amount of lactose inside that container. This would be the whey that the people have on hand. Depending on weight we will have a chart that says how much lactose will be in that container. The people will be guided to distribute a certain amount of the lactose into an ice-cube-like container and grow the yeast in there. Because there will be a specific amount of lactose in each section, and our promoters are sensitive to galactose, our yeast will stop producing progesterone after they consume all of the lactose. 
+          <br>We have found multiple ways to insert our genes into Y.lipolytica and we made pros and cons lists for each one to decide which method would be the most effective and time efficient. The methods are regular homologous recombination using homologous arms on our plasmid, EasyCloneYALI: CRISPR/Cas9‐based technique for engineering Y.lipolytica specifically, and Drag and Drop cloning. 
+          <br><br><span class="p-title"> Resolved issues - </span>
+We resolved that we could create an easy-to-use method to provide the correct amount of food to yeast in developing nations. 
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Jul9"><span style="font-size: 150%">Week of July 9th</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+We confirmed that using a constitutive promoter would be better than an inducible one, at least initially, because it will use up energy to keep producing progesterone after the growth media has been consumed. Our website has gone through several prototype designs but it seems like we may be getting close to the final design we would like to represent our work. One fun feature that is a work in progress is an interactive map that will, when moused over, provide information about different countries and our outreach there. We have also been working on finalizing our logo, which will include the name of our project: PoPPY. PoPPY stands for Portable Progesterone Production in Yeast, an accurate description of the goal of our project. A low this week for the team was realizing that most of the survey responses received from one of the groups we reached out to about contraceptive accessibility were unreliable, since many answers between supposedly different women were the exact same, word for word. However, we hope that this was a problem specific to the group, and not the norm. We have some more legitimate groups who are willing to send us photos of the women filling out the surveys, and we hope to see good results. A high for the team this week was finally understanding how Cre/lox recombination, a method that we will use in one of our experiments to integrate our gene cassette into the yeast genome, works. We now expect to run three parallel experiments to get to our end goal: a control using Gibson and homologous arms to create our gene cassette and integrate it into our Y. lipolytica genome; assembly of the plasmid inside S. cerevisiae using yeast-mediated cloning,  isolation and insertion of the plasmid into E. coli for amplification, and insertion of the gene cassette into Y. lipolytica using lox sites; and assembly of gene cassette/plasmid inside Y. lipolytica and integration into genome using lox sites. For each of the three experiments, we will begin by inserting lox sites into the Y. lipolytica genome using homologous recombination. 
+          <br><br><span class="p-title"> Resolved issues - </span>
+This week, we resolved a few issues, including picking a promoter and terminator and understanding the Cre lox system.
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Jul16"><span style="font-size: 150%">Week of July 16th</span></p>
+        <p>
+          <span class="p-title"> Overview - </span>
+This week, our team wrote a thesis! The majority of us put our brains together to create a draft and we chose one excellent editor to take control of the paper. She enlisted grammar police, style monitors, and LaTeX formatters to help her revise our drafted ideas into one cohesive overview of our work to-date. Each of us also wrote about our own contributions to the project and personal reflections describing our feelings towards the journey thus far. 
+While some of us were writing, others were meeting with professors on campus to discuss our ideas and to pick up some S. cerevisiae strains to use as our experimental organism. We learned from Rohinton Kamakaka that we could insert Cre recombinase into our yeast using a plasmid, so now we are in pursuit of a method to both express and remove Cre recombinase once we no longer need it. Our yeast parents have been growing our Y. lipolytica and amplifying the plasmids that we have received. Our wiki boys have almost finished formatting the website to their (or our) liking and are now adding more content about our project itself. A few of our team members scheduled an interview with a representative from Family Planning 2020, but due to timing issues, had to reschedule.
+          <br><br><span class="p-title"> Resolved issues - </span>
+Writing a thesis with 17 different people is tough. Somehow, we managed to write one comprehensive paper.
+        </p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Jul23"><span style="font-size: 150%">Week of July 23rd</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+          <ul>
+             <li> Lab Work Begins </li>
+             <ul>
+               <li> We received our <i>Yarrowia lipolytica</i> strain this week. We then took it to the lab and confirmed it was growing nicely. </li>
+               <li> We also received our <i>S. cerevisiae</i> and set it up to grow nicely.  </li>
+               <li> Inoculated <i>E.coli</i> cells and plasmids (pUC19 and pXR). </li>
+             </ul>
+             <li> Designing (Test)</li>
+          </ul>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Jul30"><span style="font-size: 150%">Week of July 30th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Aug6"><span style="font-size: 150%">Week of August 6th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Aug13"><span style="font-size: 150%">Week of August 13th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Aug20"><span style="font-size: 150%">Week of August 20th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Aug27"><span style="font-size: 150%">Week of August 27th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Sep3"><span style="font-size: 150%">Week of September 3rd</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Sep10"><span style="font-size: 150%">Week of September 10th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Sep17"><span style="font-size: 150%">Week of September 17th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Sep24"><span style="font-size: 150%">Week of September 24th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Oct1"><span style="font-size: 150%">Week of October 1st</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Oct8"><span style="font-size: 150%">Week of October 8th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+      <p class="section-title week" id="Oct15"><span style="font-size: 150%">Week of October 15th</span></p>
+        <p>
+          <br><br><span class="p-title">Experiment Progress:</span>
+        </p> <br> <br>
+
+
+    </div>
+  </div>
+
+<script language="JavaScript">
+
+  <!-- Fade in/out scroll button when transitioning from/to top of screen -->
+  var amountScrolled = 100;
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > amountScrolled) {
+      $('a.scroll-to-top').fadeIn('slow');
+    } else {
+      $('a.scroll-to-top').fadeOut('slow');
+    }
+
+</script>
+
+</div> <!-- end of toc-body -->
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
