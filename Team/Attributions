@@ -1,0 +1,645 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+
+<style>
+
+i {
+  font-size: 75%;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/c/c7/T--UCSC--Collab_Background.png); background-position: 40% 60%">
+    <p class="header-title" style="top:50%;left:50%">
+      Attributions
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
+
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-toc">
+  <li class="p-title"> Table of Contents </li>
+  <li><a href="#Idea"> The Project Idea </a></li>
+  <li><a href="#Team"> Official Team </a></li>
+  <li><a href="#Advi"> Advisors </a></li>
+  <li><a href="#ResS"> Research Support </a></li>
+  <li><a href="#LabS"> Lab Support </a></li>
+  <li><a href="#WikS"> Wiki Support </a></li>
+  <li><a href="#HPS"> Human Practices Support </a></li>
+  <li><a href="#FndS"> Funding Support </a></li>
+  <li><a href="#IndS"> Industry Support </a></li>
+  <li><a href="#NPP"> Non-Profit Partnerships </a></li>
+  <li><a href="#DTS"> Difficult Technique Support </a></li>
+  <li><a href="#PrsS"> Presentation Support </a></li>
+  <li><a href="#GenS"> General Support </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+  <div class="flex-row" id="top_row">
+    <div class="flex-col">
+      <p class="p-title">Thank You</p>
+      <p>The PoPPY team would like to thank everyone who has helped make this project possible. For the past five years, undergraduates at UCSC have participated in iGEM. This year, the team is composed of students studying Bioengineering, Bioinformatics, Bioengineering (Assistive Technology: Motor), Molecular, Cellular, and Developmental Biology, Marine Biology, and Cognitive Science: Artificial Intelligence and Human Computer Interaction. Our diverse group of individuals is crucial for the creative process behind using synthetic biology to help others. Modern engineering demands collaboration between individuals and pushes them to think critically and work efficiently. Through synthetic biology, the 2018 UCSC iGEM team is creating effective solutions and developing models for future success.</p>
+    </div>
+
+  </div>
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+<br>
+
+
+
+<!--       **********************************************************************************      -->
+<!--       *********************************** Project **************************************      -->
+<!--       **********************************************************************************      -->
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="Idea"> The Project Idea </p>
+
+
+<p> We came to the idea of PoPPY after many journal club meetings including all team members. The initial idea was proposed by captain <b><a href="http://2018.igem.org/Team:UCSC/Team#morgan" style="text-decoration: none; color: black;">Morgan Tardy</a></b> and was eventually agreed upon by the entire team. </p>
+</div>
+</div>
+
+
+
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       *********************************** Students *************************************      -->
+<!--       **********************************************************************************      -->
+<br>
+<br>
+
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="Team">Official Team</p>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       *********************************** Advisors *************************************      -->
+<!--       **********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="Advi">Advisors</p>
+
+
+<p class="p-title">
+  <b> Dr. David Bernick, </b> 
+  <i> Assistant Adjunct Professor, University of California Santa Cruz, Department of Biomolecular Engineering </i>  
+</p>
+<p>
+  Guided our team and offered valuable insight and advice through each stage of the project. He also helped the team manage 
+  funding, finances and logistical tasks.
+</p><br>
+
+
+<p class="p-title">
+  <b> Mckenna Hicks, </b> 
+  <i> Master's Student, University of California Santa Cruz, Department of Biomolecular Engineering </i> 
+</p>
+<p>
+  Guided us and provided advice on gene design and wet lab experiments
+</p><br>
+</div>
+</div>
+
+
+
+
+
+<br>
+<br>
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       ****************************** Research Support **********************************      -->
+<!--       **********************************************************************************      -->
+
+<div class="flex-row">
+<div class="flex-col">
+
+<p style="font-size:150% !important" class="week" id="ResS">Research Support</p>
+<p class="p-title">
+  <b> Tony Carr, </b> 
+  <i> Professor of Molecular Genetics, University of Sussex, Genome Damage and Stability, Genome Damage and Stability Centre </i> 
+</p>
+<p>
+  Answered questions regarding size of genomic insert, directionality of lox sites, and cre-lox.
+</p><br>
+
+<p class="p-title">
+  <b> Stefan Tippmann, </b> 
+  <i> Visiting Researcher, Chalmers University, Life Science Engineering </i>
+</p>
+<p>
+  Clarified Questions on yeast in general and provided us with additional readings to look through.
+</p><br>
+
+
+<p class="p-title">
+  <b> Oliver Konzock, </b> 
+  <i> PhD Student, Chalmers University, Life Science Engineering </i> 
+</p>
+<p>
+  Answered questions general questions on how to grow yeast and yarrowia lipolytica. Answered questions on how to do yeast mediated cloning.
+</p><br>
+
+
+<p class="p-title">
+  <b> Jean-Marc Nicaud, </b> 
+  <i> Directeur de Recherche INRA </i> 
+</p>
+<p>
+  Introduced us to Golden Gate Assembly method. Answered questions building plasmids. Showed us M1G1 wouldn't be an issue.
+</p><br>
+
+
+<p class="p-title">
+  <b> Adam Watson, </b> 
+  <i> Research Fellow, University of Sussex, Genome Damage and Stability </i>  
+</p>
+<p>
+  Answered questions regarding size of genomic insert, directionality of lox sites, and cre-lox in general.
+</p><br>
+
+
+<p class="p-title">
+  <b> Erin Bredeweg, </b> 
+  <i> Biosystms Dynamics & Simula Scientist, Pacific Northwest National Laboratory </i> 
+</p>
+<p>
+  Assisted in location and finding sequence information of Yarrowia strain.
+</p><br>
+
+
+<p class="p-title">
+  <b> Catherine Duport, </b> 
+  <i> University of Avignon, Microbiotechnology, Ecotoxicology, and Bioremediation </i> 
+</p>
+<p>
+  Helped clarify pieces of experiment such as why she used certain promoters. Attempted to find yarrowia strain.
+</p><br>
+
+
+<p class="p-title">
+  <b> Saumya Ramarao, </b> 
+  <i> Senior Associate, Reproductive Health Supplies Coalition </i>  
+</p>
+<p>
+  Provided information regarding birth control production and needs.
+</p><br>
+
+
+<p class="p-title">
+  <b> Hal Alper, </b> 
+  <i> Professor, The University of Texas at Austin, Department of Chemical Engineering </i>  
+</p>
+<p>
+  Provided recommendations for Tsynth27 terminator and confirmed which promoters would be necessary for our project.
+</p><br>
+
+
+<p class="p-title">
+  <b> William Belden, </b> 
+  <i> Associate Professor, Rutgers University, Department of Animal Sciences </i>  
+</p>
+<p>
+  Provided information on yeast-mediated cloning experiment. Offered to help design flanking oligos.
+</p><br>
+
+
+<p class="p-title">
+  <b> Peng Xu, </b> 
+  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
+</p>
+<p>
+  Proved Yarrowia Lipolytica could produce progesterone despite NHEJ preference. Showed that it is possible to use homologous recombination with Ku70 knockout Yarrowia Lipolytica strain.
+</p><br>
+
+
+<p class="p-title">
+  <b> Wendy Sun, </b> 
+  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
+</p>
+<p>
+  Proved Yarrowia Lipolytica could produce progesterone despite NHEJ preference. Showed that it is possible to use homologous recombination with Ku70 knockout Yarrowia Lipolytica strain.
+</p><br>
+
+
+<p class="p-title">
+  <b> Marc Gartenberg, </b> 
+  <i> Professor, Rutgers University, Department of Biochemistry and Molecular Biology </i>  
+</p>
+<p>
+  Provided information on parts of pXRU3/L2 plasmid including HOp region, CEN/ARS regions, pRS marker, and how to insert lox sites into these particular plasmids. 
+</p><br>
+
+
+<p class="p-title">
+  <b> Daniel Gallie, </b> 
+  <i> Professor, University of California Riverside, Biochemistry Department </i>  
+</p>
+<p>
+  Sent electroporation protocol with mRNA for reference.
+</p><br>
+
+
+<p class="p-title">
+  <b> Ian wheeldon, </b> 
+  <i> Associate Professor, University of California Riverside, Department of Chemical and Environmental Engineering </i>  
+</p>
+<p>
+  Provided pHR_AO8_hrGFP plasmid sequence including homologous arm regions.
+</p><br>
+
+
+<p class="p-title">
+  <b> Cory Schwartz, </b> 
+  <i> PhD Student, University of California Riverside, Department of Civil and Environmental Engineering </i>  
+</p>
+<p>
+  Provided pHR_AO8_hrGFP plasmid sequence including homologous arm regions.
+</p><br>
+
+
+<p class="p-title">
+  <b> Hans Ronne, </b> 
+  <i> Professor, Swedish University of Agricultural Sciences, Department of Forest Mycology and Plant Pathology </i>  
+</p>
+<p>
+  Helped attempt to determine how to stop the binding of Mig1 to Gal1 promoter.
+</p><br>
+
+
+<p class="p-title">
+  <b> Jah Nehlin, </b> 
+  <i> Copenhagen University Hospital Hvidovre </i>  
+</p>
+<p>
+  Gave insight into how Gal1 promoter works.
+</p><br>
+
+
+<p class="p-title">
+  <b> Rohinton Kamakaka, </b> 
+  <i> Professor, University of California Santa Cruz, Department of Molecular Cellular and Developmental Biology </i>  
+</p>
+<p>
+  Sent protocol on yeast mediated cloning. Clarified questions on yeast and may provide Saccharomyces Cerevisiae strain.
+</p><br>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       ********************************* Lab Support ************************************      -->
+<!--       **********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="LabS"> Lab Support </p>
+
+
+<p class="p-title">
+  <b> Dr. Hugh Olsen, </b> 
+  <i> Lab Manager, University of California, Santa Cruz, Biomolecular Engineering Teaching Labs </i> </SPAN> 
+</p>
+<p>
+  Provided assistance with autoclave-training, general laboratory safety training, obtaining materials and maintaining equipment.
+</p><br>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       *********************************************************************************      -->
+<!--       ********************************** Wiki Support *********************************      -->
+<!--       *********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="WikS">Wiki Support</p>
+
+
+<p class="p-title">
+  <b> Evan Pepper, </b> 
+  <i> Former Undergraduate Student, University of California Santa Cruz, Biomolecular Engineering </i> </SPAN> 
+</p>
+<p>
+  Provided advice for design choices and taking criticism regarding said design choices.
+</p><br>
+
+
+<p class="p-title">
+  <b> UCSC iGEM 2017 </b> </SPAN> 
+</p>
+<p>
+  For providing us with inspiration for the UCSC 2018 wiki and, more specifically, a layout for the Attributions page.
+</p><br>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       ************************** Human Practices Support *******************************      -->
+<!--       **********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="HPS">Human Practices Support </p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<br>
+<br>
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+
+
+<!--       **********************************************************************************      -->
+<!--       ******************************* Funding Support **********************************      -->
+<!--       **********************************************************************************      -->
+
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="FndS"> Funding Support</p>
+
+
+<p class="p-title"> 
+  <b> UCSC iGEM 2017 </b> </SPAN> 
+</p>
+<p>
+  Provide monetary support for our team.
+</p><br>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!--       **********************************************************************************      -->
+<!--       ****************************** Industry Support **********************************      -->
+<!--       **********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="IndS">Industry Support</p>
+
+<p class="p-title">
+  <b> Fungal Genetics Stock Center, </b> 
+</p>
+<p>
+  Provided the team with Yarrowia Lipolytica Strain.
+</p><br>
+
+
+<p class="p-title">
+  <b> Asana, </b>   
+</p>
+<p>
+  Provided team with free premium accounts to organize and communicate work ideas with each other.
+</p><br>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--       *********************************************************************************      -->
+<!--       ***************************** Non Profit Partnerships ***************************      -->
+<!--       *********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="NPP"> Non Profit Partnerships </p>
+</div>
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+<br>
+<br>
+<br>
+
+
+
+
+<!--       *********************************************************************************      -->
+<!--       ************************** Difficult Technique Support **************************      -->
+<!--       *********************************************************************************      -->
+
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="DTS">Difficult Technique Support</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--       *********************************************************************************      -->
+<!--       ****************************** Presentation Support *****************************      -->
+<!--       *********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="PrsS">Presentation Support</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--       *********************************************************************************      -->
+<!--       ********************************** General Support ******************************      -->
+<!--       *********************************************************************************      -->
+<br>
+<br>
+
+<div class="flex-row">
+<div class="flex-col">
+<p style="font-size:150% !important" class="week" id="GenS">General Support</p>
+
+
+<p class="p-title">
+  <b> Russell Evans, </b> 
+  <i> Senior Development Engineer, University of California, Santa Cruz, Campus Facilities </i>
+</p>
+<p>
+  Provided the <b> 2018 UCSC iGEM Team </b> with separate dry lab research and wet lab rooms. Provided technical and equipment support.
+</p><br>
+</div>
+</div>
+
+
+<br>
+
+
+
+     <a href="http://2017.igem.org/Team:UCSC">
+       <img class="main_image" src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--2017Team.jpg" alt="2017 Team Image" style="margin-bottom:-40px">
+     </a>
+
+<script language="JavaScript">
+
+  <!-- Fade in/out scroll button when transitioning from/to top of screen -->
+  var amountScrolledA = 100;
+  var amountScrolledB = 1000;
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > amountScrolledA) {
+      $('a.scroll-to-top').fadeIn('slow');
+    } else {
+      $('a.scroll-to-top').fadeOut('slow');
+    }
+  <!-- Fade in/out floating table of contents when transitioning from/to top of screen -->
+<!--    if ($(window).scrollTop() > amountScrolledB) {
+      $('div.float-toc').fadeIn('slow');
+    } else {
+      $('div.float-toc').fadeOut('slow');
+    }
+  }); -->
+
+</script>
+
+</div> <!-- end of toc-body -->
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
