@@ -1,0 +1,92 @@
+{{:Team:UCSC/NavBar}}
+<html>
+<head>
+</head>
+<body>
+
+  <div class="header-image" id="header_title_safety" style="background-image: url(http://2018.igem.org/wiki/images/3/34/T--UCSC--Safety_Background.jpg); background-position: top">
+    <p class="header-title" id="Safety">
+      Safety
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
+
+  <div class="flex-row" id="top_row">
+
+    <div class="flex-col" id="SafetyIntro">
+      <p>
+        Safety is our number one priority when working on the project. This applies to working with the organisms in the lab as well as considering how our final product will interact with both the consumer and its own environment. UCSC iGEM is dedicated to maintaining high safety standards. To achieve this, each team member had to undergo extensive safety training before beginning lab work.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image (flowers)">
+    </div>
+  </div>
+
+  <div class="flex-row">
+
+    <div class="flex-col full-width" id="InTheLab">
+
+      <p> <span style="font-size:150% !important; text-align:center !important">  In The Lab </span> </p>
+      <p class="p-title">Environmental Health and Safety Department (EH&S) Standards</p>
+      <p> EH&S regulates safety for research at UCSC. EH&S advises staff about individuals' responsibilities with respect to safety, health, and environmental issues, recommends corrective actions, and regularly imposes new health and safety programs. Programs range from laboratory and safety research to environmental management, hazardous materials, biosafety, and more. EH&S also helps provide all labs on campus with protective equipment such as coats, goggles, gloves, and more.</p>
+
+      <p class="p-title">UCSC iGEM Standards</p>
+      <p> Each team member was first required to complete a lab safety training course, "Laboratory Safety Fundamentals", provided by the University of California Learning Center. Information in the course included hazardous materials, laboratory practices, handling emergency situations, and more.</p>
+      <p> Students entering the lab are not allowed to work alone. Maintaining this policy is important as having multiple persons in the lab at a time means someone will be able to respond accordingly in case of an emergency.</p>
+      <p> Proper PPE is maintained at all times inside the lab, regardless of whether or not work is being done. In the lab, students are expected to wear a lab coat, protective goggles/glasses, gloves, long pants, and close toed shoes.</p>
+      <p> In addition to each student upholding both UCSC iGEM standards and EH&S standards, students must also make sure that fellow teammates uphold these standards as well.</p>
+
+    </div>
+
+  </div>
+
+  <div class="flex-row">
+
+    <div class="flex-col">
+
+      <p> <span style="font-size:150% !important; text-align:center !important"> Oranisms, Enzymes, and Genes </span> </p>
+      <p><span class="p-title">Yarrowia Lipolytica</span> - Classified as a BSL-1 (Biosafety Level 1) organism, Yarrowia Lipolytica is our yeast of choice for our project. The strain of Y. Lipolytica we are using, W29, exists naturally in the mouth and gut. Possible side affects of consumption include infections in immunocompromised people, though this is rare. One important factor for us choosing this yeast is that Y. Lipolytica is a GRAS organism, meaning it is "Safe-To-Eat".</p>
+      <p><span class="p-title">7-dehydrocholesterol reductase</span> - This enzyme reduces Ergosterol to Ergosta 5-eneol and/or Ergosta 5,22-dieneol.</p>
+      <p><span class="p-title">Adrenodoxin-NADP+ reductase (ADR)</span> - ADR is one of the electron carriers needed to allow P450scc to function.</p>
+      <p><span class="p-title">Ferredoxin-1 (FDX1)</span> - FDX1 is the second electron carrier needed to allow P450scc to function.</p>
+      <p><span class="p-title">Side-chain cleavage cytochrome (P450scc)</span> - P450scc converts Ergostra 5-eneol and Ergostra 5,22-dieneol to pregnenolone.</p>
+      <p><span class="p-title">3beta-hydroxy-Delta5-steroid dehydrogenase/steroid</span> - This enzyme catalyzes the conversion of pregnenolone to progesterone.</p>
+
+    </div>
+
+  </div>
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image (flowers)">
+    </div>
+  </div>
+
+  <div class="flex-row">
+
+    <div class="flex-col">
+
+      <p> <span style="font-size:150% !important; text-align:center !important">  Additional Resources </span> </p>
+      <p>Please check out the following links if you are interested in learning more about lab and synthetic biology safety. ~Inspired by past UCSC teams and the iGEM resource website~</p>
+      <ul>
+        <li><a href="https://absa.org/wp-content/uploads/2017/01/ABSAlabAccreditation.pdf">ABSA Standards for Laboratory Accreditation</a></li>
+        <li><a href="http://www.who.int/csr/resources/publications/biosafety/WHO_CDS_CSR_LYO_2004_11/en/">World Health Organization Biosafety Manual</a></li>
+        <li><a href="https://www.cdc.gov/biosafety/publications/bmbl5/">Biosafety in Microbiological and Biomedical Laboratories (CDC)</a></li>
+        <li><a href="https://ehs.ucsc.edu/lab-safety-manual/index.html">EH&S Biosafety</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
