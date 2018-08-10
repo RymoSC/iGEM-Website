@@ -1,0 +1,149 @@
+{{:Team:UCSC/NavBar}}
+<html>
+
+<head>
+<title>UCSC iGEM 2018</title>
+</head>
+
+<body style="overflow-x: hidden;">
+
+<header class="name" style="max-width:100%;" id="home">
+
+  <div class="video-container" style="margin-bottom: 6px;">
+    <img  id="myImg" src="http://2018.igem.org/wiki/images/3/3c/T--UCSC--websiteVideo.gif" alt="Website Video Not Loading" style="width:100%; margin-top: 0px;">
+    <video width="100%" autoplay muted id="video2" style="margin-top:-19vh;">
+      <source src="http://2018.igem.org/wiki/images/1/18/T--UCSC--websiteVideo.mp4" type="video/mp4">
+       document.querySelector('video').playbackRate = 10.0;
+    </video>
+
+    <div  id="video-class" class="video-centered-right-up">
+      <img id="logoImage" src="http://2018.igem.org/wiki/images/d/dd/T--UCSC--TEXT_Large_Flower.png" alt="PoPPY: Portable Progesterone Production in Yeast" style="width:130%">
+    </div>
+
+<!--    <a href="#descriptionImage"><img class="scroll-image" id="scroll_image_homePage" src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a> -->
+
+</header>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
+
+
+<div>
+
+  <img id="descriptionImage" usemap="#description-map" class="main_image" src="http://2018.igem.org/wiki/images/5/58/T--UCSC--TeamProjectDescription.png" alt="Project Description" style="margin-top:-15px; border-top:3px solid black;">
+<map name="description-map">
+    <area target="" alt="across the globe" title="Click to see our Human Practices" href="http://2018.igem.org/Team:UCSC/Human_Practices" coords="433,439,674,478" shape="rect">
+    <area target="" alt="choose" title="Click to see our Human Practices" href="http://2018.igem.org/Team:UCSC/Human_Practices" coords="1851,474,1960,504" shape="rect">
+    <area target="" alt="Progesterone" title="Click to see our Project" href="http://2018.igem.org/Team:UCSC/Description" coords="1261,826,1066,790" shape="rect">
+    <area target="" alt="contraception" title="Click to see our Project" href="http://2018.igem.org/Team:UCSC/Description" coords="1378,975,1171,945" shape="rect">
+    <area target="" alt="progesterone" title="Click to see our Project" href="http://2018.igem.org/Team:UCSC/Description" coords="567,1239,762,1274" shape="rect">
+    <area target="" alt="GRAS organism" title="Click to learn more about a GRAS organism" href="https://www.fda.gov/food/ingredientspackaginglabeling/gras/microorganismsmicrobialderivedingredients/default.htm" coords="1427,1590,1203,1549" shape="rect">
+    <area target="" alt="Our hope" title="Click to see our Human Practices" href="http://2018.igem.org/Team:UCSC/Human_Practices" coords="2111,1538,1984,1504" shape="rect">
+    <area target="" alt="increase" title="Click to see our Human Practices" href="http://2018.igem.org/Team:UCSC/Human_Practices" coords="1978,1575,2102,1612" shape="rect">
+</map>
+
+</div>
+
+
+<h6 align="center" style="font-size: 1.5em; font-family: 'catamaranlight';">Click Below To Learn More!</h6>
+<br>
+
+<div align="center">
+  <div class="row_body">
+    
+    <div id="firstLink" class="column_body">
+      <a href="http://2018.igem.org/Team:UCSC/Team">
+        <div class="image_container">
+          <img id="firstImage" src="http://2018.igem.org/wiki/images/e/e3/T--UCSC--teamImage2.0.png" alt="Team Image" style="width:120%" 
+          class="image_box">
+          <div class="middle-details">
+           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Meet the <br>Team</div>
+          </div>
+       </div>
+      </a>
+    </div>
+
+    <div id="secondLink" class="column_body">
+      <a href="http://2018.igem.org/Team:UCSC/Description">
+        <div class="image_container">
+          <img id="secondImage" src="http://2018.igem.org/wiki/images/e/e4/T--UCSC--Info2.png" alt="Info Image" style="width:120%" class="image_box">
+          <div class="middle-details">
+            <div id="middle-text-class2" class="middle-text" style="font-size:1.8em;font-weight:bold">Our <br>Project</div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div id="thirdLink" class="column_body">
+      <a href="http://2018.igem.org/Team:UCSC/Human_Practices">
+        <div class="image_container">
+          <img id="thirdImage" src="http://2018.igem.org/wiki/images/6/63/T--UCSC--Partnership.png" alt="Human Practices Image" style="width:120%" class="image_box">
+          <div class="middle-details">
+            <div id="middle-text-class3" class="middle-text" style="font-size:1.8em;font-weight:bold">Human <br>Practices</div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div id="fourthLink" class="column_body">
+      <a href="http://2018.igem.org/Team:UCSC/Partnership">
+        <div class="image_container">
+          <img id="fourthImage" src="http://2018.igem.org/wiki/images/5/51/T--UCSC--ITESG.png" alt="Partnership Image" style="width:120%" class="image_box">
+          <div class="middle-details">
+            <div id="middle-text-class4" class="middle-text" style="font-size:1.8em;font-weight:bold">ITESG<br>Collaboration</div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+
+<br>
+
+<script language="JavaScript">
+document.onload = myFunction();
+function myFunction() {
+   if (window.matchMedia("(min-width:800px)").matches) {
+    document.getElementById("myImg").style="width:0%";
+    }
+    else{
+      document.getElementById("video2").style="width:0%"
+      document.getElementById("descriptionImage").src="http://2018.igem.org/wiki/images/4/4f/T--UCSC--DescriptionMobile.png"
+      document.getElementById("descriptionImage").style="margin-top: -36px;border-top:3px solid black;"
+      document.getElementById("firstLink").style="width:50%"
+      document.getElementById("secondLink").style="width:50%"
+      document.getElementById("thirdLink").style="width:50%;margin-top:2%"
+      document.getElementById("fourthLink").style="width:50%;margin-top:5px"
+      document.getElementById("firstImage").style="width:150%;"
+      document.getElementById("secondImage").style="width:150%;"
+      document.getElementById("thirdImage").style="width:150%;float:right"
+      document.getElementById("fourthImage").style="width:170%;float:right"
+      document.getElementById("firstImage").src="http://2018.igem.org/wiki/images/b/b6/T--UCSC--InfoMobile.png"
+      document.getElementById("secondImage").src="http://2018.igem.org/wiki/images/4/48/T--UCSC--TeamImage_Mobile.png"
+      document.getElementById("thirdImage").src="http://2018.igem.org/wiki/images/4/4d/T--UCSC--PartnershipMobile.png"
+      document.getElementById("fourthImage").src="http://2018.igem.org/wiki/images/a/aa/T--UCSC--ITESG_Mobile.png"
+      document.getElementById("video-class").style="top:60%;left:66%"
+      document.getElementById("logoImage").style="width:150%"
+      document.getElementById("middle-text-class1").style="font-size:0px;"
+      document.getElementById("middle-text-class2").style="font-size:0px;"
+      document.getElementById("middle-text-class3").style="font-size:0px;"
+      document.getElementById("middle-text-class4").style="font-size:0px;"
+    }
+}
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://davidjbradshaw.com/imagemap-resizer/js/imageMapResizer.min.js"></script>
+<script type="text/javascript">
+
+  $('map').imageMapResize();
+
+</script>
+
+
+</html>
+{{:Team:UCSC/Footer}}
