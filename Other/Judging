@@ -14,22 +14,19 @@
 
 
 
-
-
-
-
   <div class="flex-row">
 
 <!--   xxxxxxxxxxxxxxxxxxxxxxxxxx Bronze xxxxxxxxxxxxxxxxxxxxxxxx  -->
+
     <div class="flex-col" style="border-left: 3px solid #8C7853">
       <p class="p-title" style="font-size:200% !important; color: #8C7853">Bronze Medal Requirements</p>
 
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/d/d8/T--UCSC--Checkmark.png"> Registered for the Jamboree </p>
-      <p> I can't believe it either :) Come say hi in Boston if you see this message!</p>
+      <p> Cheers! Hope to see every single iGEM team at this year's jamboree!</p>
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Wiki </p>
-      <p> In Progress </p>
+      <p> In Progress - you're looking at it! </p>
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Poster </p>
       <p> In Progress </p>
@@ -41,7 +38,7 @@
       <p> In Progress </p>
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Attributions </p>
-      <p> In Progress </p>
+      <p> Check out our <a href="http://2018.igem.org/Team:UCSC/Attributions">Attributions page</a>!</p>
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Characterizing a Biobrick </p>
       <p> In Progress </p>
@@ -49,35 +46,35 @@
 
 
 
-
-
 <!--   xxxxxxxxxxxxxxxxxxxxxxxxxx Silver xxxxxxxxxxxxxxxxxxxxxxxx  -->
-    <div class="flex-col" style="border-left: 3px solid #E6E8FA">
-      <p class="p-title" style="font-size:200% !important; color: #E6E8FA">Silver Medal Requirements</p>
+
+    <div class="flex-col" style="border-left: 3px solid #a1a2a9">
+      <p class="p-title" style="font-size:200% !important; color: #a1a2a9">Silver Medal Requirements</p>
 
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> New Biobrick </p>
-      <p> We are a cool team and helped advance biology. If you would like to find out more about how we accomplished this, check out our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">innovation page.</a></p>
+      <p> Learn more about our biobrick on our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Innovations page.</a></p>
 
-      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Collaboration </p>
-      <p> In Progress </p>
+      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/d/d8/T--UCSC--Checkmark.png"> Collaboration </p>
+      <p>We collaborated with several teams from around the world, including University of Minnesota and University of Montpellier, France. Check out our <a href="http://2018.igem.org/Team:UCSC/Collaborations">Collaborations page</a> to learn more! We also collaborated with a team outside of iGEM called ITESG. Check out our work with them on our <a href="http://2018.igem.org/Team:UCSC/Partnership">Partnership page.</a> </p>
 
-      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Human Practices (Silver) </p>
-      <p> In Progress </p>
+      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/d/d8/T--UCSC--Checkmark.png"> Human Practices (Silver) </p>
+      <p> We contacted family members, friends, and representatives of the World Health Organization to discuss current issues with birth control. We sent out questionnaires to several grassroot organizations and advocacy groups around the world to gauge their interest in our product and learn about stigma, cost, and access issues. We also presented to local classes to teach them about iGEM and discuss potential ethical issues with our project. For more information, check out our <a href="http://2018.igem.org/Team:UCSC/Human_Practices">Human Practices page</a>!</p>
     </div>
 
 
 
 <!--   xxxxxxxxxxxxxxxxxxxxxxxxxx Gold xxxxxxxxxxxxxxxxxxxxxxxx  -->
+
     <div class="flex-col" style="border-left: 3px solid #CFB53B">
       <p class="p-title" style="font-size:200% !important; color: #CFB53B">Gold Medal Requirements</p>
 
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Modeling </p>
-      <p> The amazing modeling team is still working product yield and more. Be sure to follow them for updates in our <a href="http://2018.igem.org/Team:UCSC/Model">modeling page.</a> We hope to have this page filled by the end of the summer! </p>
+      <p> Check out our modeling team's work on our <a href="http://2018.igem.org/Team:UCSC/Model">Modeling page.</a> </p>
 
-      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Integrated Human Practices </p>
-      <p> In Progress </p>
+      <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/d/d8/T--UCSC--Checkmark.png"> Integrated Human Practices </p>
+      <p> We took what we learned from our questionnaire and other outreach efforts to create a product tailored to our potential users. The women who returned questionnaires encouraged us to consider cost, location, and accessibility. We localized contraceptive production because we were informed that drugstores and hospitals are far away for women in rural areas. We will use discreet packaging for our product because women are worried about being seen using birth control in stigmatized areas. We are also researching ways to get our product to market in several countries by collaborating with Family Planning 2020.</p>
 
       <p class="p-title" style="font-size:125% !important"><img style="width:6%" src="http://2018.igem.org/wiki/images/7/76/T--UCSC--BlankCheck.png"> Demonstration of our Work </p>
       <p> In Progress </p>
@@ -86,9 +83,10 @@
       <p> In Progress </p>
     </div>
 
-
-
   </div>
+
+
+
 
 
 </body>
