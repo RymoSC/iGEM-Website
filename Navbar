@@ -1,5 +1,14 @@
 {{:Team:UCSC/CSS}}
 <html>
+
+<style>
+
+.nav-links-container a {
+  transition: 0.3s;
+}
+
+</style>
+
 <body>
 
 <nav class="topnav" id="myTopnav">
@@ -21,6 +30,7 @@
       <ul class="dropdown-content" id="ddTeam">
         <li><a href="http://2018.igem.org/Team:UCSC/Team">Meet the Team</a></li>
         <li><a href="http://2018.igem.org/Team:UCSC/Collaborations">Collaborations</a></li>
+        <li><a href="http://2018.igem.org/Team:UCSC/Partnership">Partnership</a></li>
         <li><a href="http://2018.igem.org/Team:UCSC/Attributions">Attributions</a></li>
         <li><a href="http://2018.igem.org/Team:UCSC/Sponsors">Sponsors</a></li>
       </ul>
@@ -52,6 +62,7 @@
        <li><a href="http://2018.igem.org/Team:UCSC/Human_Practices">Outreach</a></li>
        <li><a href="http://2018.igem.org/Team:UCSC/Public_Engagement">Public Engagement</a></li>
        <li><a href="http://2018.igem.org/Team:UCSC/Safety">Safety</a></li>
+<!--       <li><a href="http://2018.igem.org/Team:UCSC/wtwsk">What The World Should Know</a></li> -->
      </ul>
     </div>
 
@@ -87,7 +98,7 @@ function toggleNavbar() {
 
 /* Toggle between adding and removing the "show" class to dropdown when the user clicks on the icon */
 function toggleDropdownTeam() {
-  if ($(window).width() <= 1010) { 
+  if ($(window).width() <= 1150) { 
    var x = document.getElementById("ddTeam");
    if (x.className === "dropdown-content") {
        x.className += "show";
@@ -98,7 +109,7 @@ function toggleDropdownTeam() {
 }
 
 function toggleDropdownProject() {
-  if ($(window).width() <= 1010) {
+  if ($(window).width() <= 1150) {
    var x = document.getElementById("ddProject");
    if (x.className === "dropdown-content") {
        x.className += "show";
@@ -109,7 +120,7 @@ function toggleDropdownProject() {
 }
 
 function toggleDropdownHumanPractices() {
-  if ($(window).width() <= 1010) {
+  if ($(window).width() <= 1150) {
    var x = document.getElementById("ddHumanPractices");
    if (x.className === "dropdown-content") {
        x.className += "show";
@@ -120,7 +131,7 @@ function toggleDropdownHumanPractices() {
 }
 
 function toggleDropdownParts() {
-  if ($(window).width() <= 1010) {
+  if ($(window).width() <= 1150) {
    var x = document.getElementById("ddParts");
    if (x.className === "dropdown-content") {
        x.className += "show";
