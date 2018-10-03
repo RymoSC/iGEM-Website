@@ -4,6 +4,19 @@
 
 <style>
 
+/*.float-toc a {
+  padding: calc((100vh - (150px + 84px) - 30px*5)/(2*5)) 1em;
+} */
+
+/* temp fix for top flex-row shifting bug */
+/* .float-toc {
+  margin-bottom: calc(-1000px - 16px - 10vh); 
+} */
+
+.float-toc a {
+  padding: calc((100vh - (150px + 84px) - 31px*20)/(2*20)) 1em;
+}
+
 i {
   font-size: 75%;
 }
@@ -20,36 +33,43 @@ i {
   </div>
 
   <!-- Include arrow to jump to top -->
-  <a href="#top_row" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--ArrowUp.png"></a>
-
+  <a href="#top_anchor" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
 
 
 <!--       ************************************* Table of Contents ***************************************      -->
 
+<div class="float-page-list team-pages">
+  <li><h5> Team Pages </h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Team"> Meet the Team </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Collaborations"> Collaborations </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Partnership"> Partnership </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Attributions"> Attributions </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Sponsors"> Sponsors </a></li>
+</div>
+
 <div class="float-toc">
-  <li class="p-title"> Table of Contents </li>
-  <li><a href="#Idea"> The Project Idea </a></li>
-  <li><a href="#Team"> Official Team </a></li>
-  <li><a href="#Advi"> Advisors </a></li>
-  <li><a href="#ResS"> Research Support </a></li>
-  <li><a href="#LabS"> Lab Support </a></li>
-  <li><a href="#WikS"> Wiki Support </a></li>
-  <li><a href="#HPS"> Human Practices Support </a></li>
-  <li><a href="#FndS"> Funding Support </a></li>
-  <li><a href="#IndS"> Industry Support </a></li>
-  <li><a href="#NPP"> Non-Profit Partnerships </a></li>
-  <li><a href="#DTS"> Difficult Technique Support </a></li>
-  <li><a href="#PrsS"> Presentation Support </a></li>
-  <li><a href="#GenS"> General Support </a></li>
+  <li><h6 id="top_anchor"> Page Contents </h6></li>
+  <li><a href="#Attr_Idea"> The Project Idea </a></li>
+  <li><a href="#Attr_Team"> Official Team </a></li>
+  <li><a href="#Attr_Advi"> Advisors </a></li>
+  <li><a href="#Attr_ResS"> Research Support </a></li>
+  <li><a href="#Attr_LabS"> Lab Support </a></li>
+  <li><a href="#Attr_WikS"> Wiki Support </a></li>
+  <li><a href="#Attr_HPS"> Human Practices Support </a></li>
+  <li><a href="#Attr_FndS"> Funding Support </a></li>
+  <li><a href="#Attr_IndS"> Industry Support </a></li>
+  <li><a href="#Attr_NPP"> Non-Profit Partnerships </a></li>
+  <li><a href="#Attr_PrsS"> Presentation Support </a></li>
+  <li><a href="#Attr_GenS"> General Support </a></li>
 </div>
 
 <!--       ********************************** End Table of Contents **************************************      -->
 
 
-  <div class="flex-row" id="top_row">
+  <div class="flex-row">
     <div class="flex-col">
-      <p class="p-title">Thank You</p>
-      <p>The PoPPY team would like to thank everyone who has helped make this project possible. For the past five years, undergraduates at UCSC have participated in iGEM. This year, the team is composed of students studying Bioengineering, Bioinformatics, Bioengineering (Assistive Technology: Motor), Molecular, Cellular, and Developmental Biology, Marine Biology, and Cognitive Science: Artificial Intelligence and Human Computer Interaction. Our diverse group of individuals is crucial for the creative process behind using synthetic biology to help others. Modern engineering demands collaboration between individuals and pushes them to think critically and work efficiently. Through synthetic biology, the 2018 UCSC iGEM team is creating effective solutions and developing models for future success.</p>
+      <h6> Thank You </h6>
+      <p>The PoPPY team would like to thank everyone who made this project possible, especially those described below. For the past five years, undergraduates at UCSC have participated in iGEM. This year, the team is composed of students studying Bioengineering (Biomolecular), Bioinformatics, Bioengineering (Assistive Technology: Motor), Molecular, Cellular, and Developmental Biology, Marine Biology, and Cognitive Science: Artificial Intelligence and Human Computer Interaction. Our diverse group of individuals is crucial for the creative process behind using synthetic biology to help others. Modern engineering demands collaboration between individuals and pushes them to think critically and work efficiently. Through synthetic biology, the 2018 UCSC iGEM team is solving worldwide issues and developing methods to expand their research in the future.</p>
     </div>
 
   </div>
@@ -68,18 +88,11 @@ i {
 <!--       **********************************************************************************      -->
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="Idea"> The Project Idea </p>
-
-
-<p> We came to the idea of PoPPY after many journal club meetings including all team members. The initial idea was proposed by captain <b><a href="http://2018.igem.org/Team:UCSC/Team#morgan" style="text-decoration: none; color: black;">Morgan Tardy</a></b> and was eventually agreed upon by the entire team. </p>
+  <div class="flex-col">
+    <h3 id="Attr_Idea"> The Project Idea </h3>
+    <p> After several journal club meetings, our team determined the PoPPY project was the most meaningful pursuit. The initial idea was proposed by captain <b><a href="http://2018.igem.org/Team:UCSC/Team#morgan" style="text-decoration: none; color: black;">Morgan Tardy</a></b> and mentor <b><a href="http://2018.igem.org/Team:UCSC/Team#mckenna" style="text-decoration: none; color: black;">McKenna Hicks</a></b>.</p>
+  </div>
 </div>
-</div>
-
-
-
-
-
 
 
 <!--       **********************************************************************************      -->
@@ -90,17 +103,13 @@ i {
 
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="Team">Official Team</p>
+  <div class="flex-col">
+    <h3 id="Attr_Team">Official Team</h3>
+Thank you to all the 2018 UCSC iGEM Team members for their hard work and dedication to the PoPPY project's message. Check out our <b><a href="http://2018.igem.org/Team:UCSC/Team" style="text-decoration: none; color: black;">Meet the Team page</a></b> to learn about each teammate.
 
 
+  </div>
 </div>
-</div>
-
-
-
-
-
 
 
 <!--       **********************************************************************************      -->
@@ -110,45 +119,26 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="Advi">Advisors</p>
+  <div class="flex-col">
+    <h3 id="Attr_Advi">Advisors</h3>
+    <h6><b> David Bernick, </b> 
+        <i> Assistant Adjunct Professor, University of California Santa Cruz, Department of Biomolecular Engineering </i></h6>
+    <p>Thank you to Dr. Bernick for guiding our team and offering valuable insight and advice through each stage of the project. He helped our team manage funding, finances and logistical tasks.</p>
+    <br>
+
+    <h6><b> McKenna Hicks, </b> 
+        <i> Master's Student, University of California Santa Cruz, Department of Biomolecular Engineering </i></h6>
+    <p>Thank you to McKenna for providing advice on gene design and wet lab experiments.</p>
+    <br>
+
+<h6><b> Todd Lowe, </b> 
+        <i> Professor, University of California Santa Cruz, Department of Biomolecular Engineering </i></h6>
+    <p>Thank you for acting as our assistant advisor and providing advice on coding for our website.</p>
+    <br>
 
 
-<p class="p-title">
-  <b> Dr. David Bernick, </b> 
-  <i> Assistant Adjunct Professor, University of California Santa Cruz, Department of Biomolecular Engineering </i>  
-</p>
-<p>
-  Guided our team and offered valuable insight and advice through each stage of the project. He also helped the team manage 
-  funding, finances and logistical tasks.
-</p><br>
-
-
-<p class="p-title">
-  <b> Mckenna Hicks, </b> 
-  <i> Master's Student, University of California Santa Cruz, Department of Biomolecular Engineering </i> 
-</p>
-<p>
-  Guided us and provided advice on gene design and wet lab experiments
-</p><br>
-</div>
-</div>
-
-
-
-
-
-<br>
-<br>
-  <div class="flex-row">
-    <div class="content-divider">
-      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
-    </div>
   </div>
-<br>
-<br>
-<br>
-
+</div>
 
 
 
@@ -157,191 +147,165 @@ i {
 <!--       **********************************************************************************      -->
 
 <div class="flex-row">
-<div class="flex-col">
-
-<p style="font-size:150% !important" class="week" id="ResS">Research Support</p>
-<p class="p-title">
-  <b> Tony Carr, </b> 
-  <i> Professor of Molecular Genetics, University of Sussex, Genome Damage and Stability, Genome Damage and Stability Centre </i> 
-</p>
-<p>
-  Answered questions regarding size of genomic insert, directionality of lox sites, and cre-lox.
-</p><br>
-
-<p class="p-title">
-  <b> Stefan Tippmann, </b> 
-  <i> Visiting Researcher, Chalmers University, Life Science Engineering </i>
-</p>
-<p>
-  Clarified Questions on yeast in general and provided us with additional readings to look through.
-</p><br>
-
-
-<p class="p-title">
-  <b> Oliver Konzock, </b> 
-  <i> PhD Student, Chalmers University, Life Science Engineering </i> 
-</p>
-<p>
-  Answered questions general questions on how to grow yeast and yarrowia lipolytica. Answered questions on how to do yeast mediated cloning.
-</p><br>
-
-
-<p class="p-title">
-  <b> Jean-Marc Nicaud, </b> 
-  <i> Directeur de Recherche INRA </i> 
-</p>
-<p>
-  Introduced us to Golden Gate Assembly method. Answered questions building plasmids. Showed us M1G1 wouldn't be an issue.
-</p><br>
-
-
-<p class="p-title">
-  <b> Adam Watson, </b> 
-  <i> Research Fellow, University of Sussex, Genome Damage and Stability </i>  
-</p>
-<p>
-  Answered questions regarding size of genomic insert, directionality of lox sites, and cre-lox in general.
-</p><br>
-
-
-<p class="p-title">
-  <b> Erin Bredeweg, </b> 
-  <i> Biosystms Dynamics & Simula Scientist, Pacific Northwest National Laboratory </i> 
-</p>
-<p>
-  Assisted in location and finding sequence information of Yarrowia strain.
-</p><br>
-
-
-<p class="p-title">
-  <b> Catherine Duport, </b> 
-  <i> University of Avignon, Microbiotechnology, Ecotoxicology, and Bioremediation </i> 
-</p>
-<p>
-  Helped clarify pieces of experiment such as why she used certain promoters. Attempted to find yarrowia strain.
-</p><br>
-
-
-<p class="p-title">
-  <b> Saumya Ramarao, </b> 
-  <i> Senior Associate, Reproductive Health Supplies Coalition </i>  
-</p>
-<p>
-  Provided information regarding birth control production and needs.
-</p><br>
-
-
-<p class="p-title">
+  <div class="flex-col">
+    <h3 id="Attr_ResS">Research Support</h3>
+<h6>
   <b> Hal Alper, </b> 
   <i> Professor, The University of Texas at Austin, Department of Chemical Engineering </i>  
-</p>
+</h6>
 <p>
-  Provided recommendations for Tsynth27 terminator and confirmed which promoters would be necessary for our project.
+  Professor Alper provided recommendations for Tsynth27/Tsynth8 terminators and confirmed which promoters would be necessary for our project. Through a Materials Transfer Agreement, Alper sent us plasmids carrying terminators and fluorescent markers to test for gene activity.
 </p><br>
 
-
-<p class="p-title">
+<h6>
   <b> William Belden, </b> 
   <i> Associate Professor, Rutgers University, Department of Animal Sciences </i>  
-</p>
+</h6>
 <p>
-  Provided information on yeast-mediated cloning experiment. Offered to help design flanking oligos.
+  Thank you for providing valuable information on yeast-mediated cloning. Professor Belden inspired our parallel experiment design and even offered to help design our flanking oligos.
 </p><br>
 
-
-<p class="p-title">
-  <b> Peng Xu, </b> 
-  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
-</p>
+<h6>
+  <b> Erin Bredeweg, </b> 
+  <i> Biosystems Dynamics & Simula Scientist, Pacific Northwest National Laboratory </i> 
+</h6>
 <p>
-  Proved Yarrowia Lipolytica could produce progesterone despite NHEJ preference. Showed that it is possible to use homologous recombination with Ku70 knockout Yarrowia Lipolytica strain.
+  Thank you for assisting us in finding sequence information on our <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i> strain.
 </p><br>
 
-
-<p class="p-title">
-  <b> Wendy Sun, </b> 
-  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
-</p>
+<h6>
+  <b> Tony Carr, </b> 
+  <i> Professor of Molecular Genetics, University of Sussex, Genome Damage and Stability, Genome Damage and Stability Centre </i> 
+</h6>
 <p>
-  Proved Yarrowia Lipolytica could produce progesterone despite NHEJ preference. Showed that it is possible to use homologous recombination with Ku70 knockout Yarrowia Lipolytica strain.
+  Thank you for answering our questions regarding the size of genomic insert, directionality of Lox sites, and cre-lox recombination.
 </p><br>
 
-
-<p class="p-title">
-  <b> Marc Gartenberg, </b> 
-  <i> Professor, Rutgers University, Department of Biochemistry and Molecular Biology </i>  
-</p>
+<h6>
+  <b> Catherine Duport, </b> 
+  <i> University of Avignon, Microbiotechnology, Ecotoxicology, and Bioremediation </i> 
+</h6>
 <p>
-  Provided information on parts of pXRU3/L2 plasmid including HOp region, CEN/ARS regions, pRS marker, and how to insert lox sites into these particular plasmids. 
+  Thank you for helping clarify pieces of your 1998 experiment such as why you used certain promoters and genes. Duport also attempted to find us a <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i> strain.
 </p><br>
 
-
-<p class="p-title">
+<h6>
   <b> Daniel Gallie, </b> 
   <i> Professor, University of California Riverside, Biochemistry Department </i>  
-</p>
+</h6>
 <p>
-  Sent electroporation protocol with mRNA for reference.
+  Thank you for sending us an electroporation protocol with mRNA for reference.
 </p><br>
 
-
-<p class="p-title">
-  <b> Ian wheeldon, </b> 
-  <i> Associate Professor, University of California Riverside, Department of Chemical and Environmental Engineering </i>  
-</p>
+<h6>
+  <b> Marc Gartenberg, </b> 
+  <i> Professor, Rutgers University, Department of Biochemistry and Molecular Biology </i>  
+</h6>
 <p>
-  Provided pHR_AO8_hrGFP plasmid sequence including homologous arm regions.
+  Gartenberg provided information on parts of pXRU3/L2 plasmid including HOp region, CEN/ARS regions, pRS marker, and how to insert Lox sites into these particular plasmids. 
 </p><br>
 
-
-<p class="p-title">
-  <b> Cory Schwartz, </b> 
-  <i> PhD Student, University of California Riverside, Department of Civil and Environmental Engineering </i>  
-</p>
-<p>
-  Provided pHR_AO8_hrGFP plasmid sequence including homologous arm regions.
-</p><br>
-
-
-<p class="p-title">
-  <b> Hans Ronne, </b> 
-  <i> Professor, Swedish University of Agricultural Sciences, Department of Forest Mycology and Plant Pathology </i>  
-</p>
-<p>
-  Helped attempt to determine how to stop the binding of Mig1 to Gal1 promoter.
-</p><br>
-
-
-<p class="p-title">
-  <b> Jah Nehlin, </b> 
-  <i> Copenhagen University Hospital Hvidovre </i>  
-</p>
-<p>
-  Gave insight into how Gal1 promoter works.
-</p><br>
-
-
-<p class="p-title">
+<h6>
   <b> Rohinton Kamakaka, </b> 
   <i> Professor, University of California Santa Cruz, Department of Molecular Cellular and Developmental Biology </i>  
-</p>
+</h6>
 <p>
-  Sent protocol on yeast mediated cloning. Clarified questions on yeast and may provide Saccharomyces Cerevisiae strain.
+  Professor Kamakaka sent us protocols on yeast-mediated cloning. He also answered questions on growing and maintaining yeast and even provided us a <i>Saccharomyces Cerevisiae</i> strain for yeast-mediated cloning. Professor Kamakaka has also provided general support and advice for all our experiments.
+</p><br>
+
+<h6>
+  <b> Oliver Konzock, </b> 
+  <i> PhD Student, Chalmers University, Life Science Engineering </i> 
+</h6>
+<p>
+  Thank you for answering questions on how to grow yeast (and care for <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i>). He also answered questions on how to successfully perform yeast-mediated cloning.
+</p><br>
+
+<h6>
+  <b> Jah Nehlin, </b> 
+  <i> Copenhagen University Hospital Hvidovre </i>  
+</h6>
+<p>
+  Mehlin gave insight into how the GAL1 promoter works.
+</p><br>
+
+<h6>
+  <b> Jean-Marc Nicaud, </b> 
+  <i> Directeur de Recherche INRA </i> 
+</h6>
+<p>
+   Thank you for introducing us to the Golden Gate Assembly method. He also answered questions about building plasmids and showed us M1G1 wouldn't be an issue in terms of our promoter/terminator design.
+</p><br>
+
+<h6>
+  <b> Saumya Ramarao, </b> 
+  <i> Senior Associate, Reproductive Health Supplies Coalition </i>  
+</h6>
+<p>
+  Ramarao provided information regarding birth control production and needs.
+</p><br>
+
+<h6>
+  <b> Hans Ronne, </b> 
+  <i> Professor, Swedish University of Agricultural Sciences, Department of Forest Mycology and Plant Pathology </i>  
+</h6>
+<p>
+  Professor Ronne attempted to determine how to stop the binding of MIG1 to GALI promoter.
+</p><br>
+
+<h6>
+  <b> Cory Schwartz, </b> 
+  <i> PhD Student, University of California Riverside, Department of Civil and Environmental Engineering </i>  
+</h6>
+<p>
+  Schwartz provided pHR_AO8_hrGFP plasmid sequence that includes homologous arm regions.
+</p><br>
+
+<h6>
+  <b> Wendy Sun, </b> 
+  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
+</h6>
+<p>
+  Sun assisted Xu in proving that <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i> could produce progesterone.
+</p><br>
+
+<h6>
+  <b> Stefan Tippmann, </b> 
+  <i> Visiting Researcher, Chalmers University, Life Science Engineering </i>
+</h6>
+<p>
+ Thank you for teaching us about yeast in general and providing us with additional readings to learn about <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i>.
+</p><br>
+
+<h6>
+  <b> Adam Watson, </b> 
+  <i> Research Fellow, University of Sussex, Genome Damage and Stability </i>  
+</h6>
+<p>
+  Thank you for answering questions regarding the size of genomic inserts, directionality of Lox sites, and Cre-lox recombination.
+</p><br>
+
+<h6>
+  <b> Ian Wheeldon, </b> 
+  <i> Associate Professor, University of California Riverside, Department of Chemical and Environmental Engineering </i>  
+</h6>
+<p>
+  Wheeldon provided the pHR_AO8_hrGFP plasmid sequence that includes homologous arm regions.
+</p><br>
+
+<h6>
+  <b> Peng Xu, </b> 
+  <i> University of Maryland Baltimore County, Department of Chemical Biochemical and Environmental Engineering </i>  
+</h6>
+<p>
+  Xu proved that <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i> could produce progesterone despite its NHEJ preference. He showed that it is possible to use homologous recombination with a KU70 knockout strain.
 </p><br>
 
 
 
+
+  </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
 
 
 <!--       **********************************************************************************      -->
@@ -351,29 +315,19 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="LabS"> Lab Support </p>
+  <div class="flex-col">
+    <h3 id="Attr_LabS"> Lab Support </h3>
 
-
-<p class="p-title">
+<h6>
   <b> Dr. Hugh Olsen, </b> 
-  <i> Lab Manager, University of California, Santa Cruz, Biomolecular Engineering Teaching Labs </i> </SPAN> 
-</p>
+  <i> Lab Manager, University of California, Santa Cruz, Biomolecular Engineering Teaching Labs </i>
+</h6>
 <p>
-  Provided assistance with autoclave-training, general laboratory safety training, obtaining materials and maintaining equipment.
+  Dr. Olsen provided assistance with autoclave-training, general laboratory safety training, obtaining materials and maintaining lab equipment.
 </p><br>
+
+  </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
 
 
 <!--       *********************************************************************************      -->
@@ -383,35 +337,34 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="WikS">Wiki Support</p>
+  <div class="flex-col">
+    <h3 id="Attr_WikS">Wiki Support</h3>
 
-
-<p class="p-title">
+<h6>
   <b> Evan Pepper, </b> 
-  <i> Former Undergraduate Student, University of California Santa Cruz, Biomolecular Engineering </i> </SPAN> 
-</p>
+  <i> Former Undergraduate Student, University of California Santa Cruz, Biomolecular Engineering </i>
+</h6>
 <p>
-  Provided advice for design choices and taking criticism regarding said design choices.
+  Evan provided advice on design choices and website organization.
 </p><br>
 
 
-<p class="p-title">
-  <b> UCSC iGEM 2017 </b> </SPAN> 
-</p>
+<h6>
+  <b> UCSC iGEM 2017 </b>
+</h6>
 <p>
-  For providing us with inspiration for the UCSC 2018 wiki and, more specifically, a layout for the Attributions page.
+  Thank you for providing us with inspiration for the UCSC 2018 wiki and, more specifically, a layout for the Attributions page.
 </p><br>
+
+<h6>
+  <b> Shayan Vahdani </b>
+</h6>
+<p>
+  Thank you for providing feedback on our wiki design and offering alternatives to make our display better.
+</p><br>
+
+  </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
 
 
 <!--       **********************************************************************************      -->
@@ -421,29 +374,43 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="HPS">Human Practices Support </p>
-</div>
-</div>
+  <div class="flex-col">
+    <h3 id="Attr_HPS"> Human Practices Support </h3>
 
+<h6>
+  <b> Sandra Dreisbach, </b> 
+  <i>Professor, University of California Santa Cruz</i>
+</h6>
+<p>
+  Thank you to Sandra for introducing our team to the IRB and prompting us to look into IRB exemption for our questionnaire.
+</p><br>
 
+<h6>
+  <b> Emily Fisch, </b> 
+  <i>Research Compliance Analyst, Office of Research Compliance Administration, University of California Santa Cruz</i>
+</h6>
+<p>
+  Thank you to Emily for assisting our team in gaining IRB exemption for the Human Practices Birth Control Questionnaire.
+</p><br>
 
+<h6>
+  <b> Hank Pellissier, </b> 
+  <i>Director, Brighter Brains Institute</i>
+</h6>
+<p>
+  Pellissier provided our Human Practices team several women's groups to contact in Uganda.
+</p><br>
 
+<h6>
+  <b> Bri Quinn, </b> 
+  <i>Compliance Assistant, Institutional Review Board, University of California Santa Cruz</i>
+</h6>
+<p>
+  Thank you to Bri for encouraging our team to apply for IRB exemption rather than a full protocol review.
+</p><br>
 
-
-
-
-<br>
-<br>
-  <div class="flex-row">
-    <div class="content-divider">
-      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
-    </div>
   </div>
-<br>
-<br>
-<br>
-
+</div>
 
 
 <!--       **********************************************************************************      -->
@@ -452,24 +419,26 @@ i {
 
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="FndS"> Funding Support</p>
+  <div class="flex-col">
+    <h3 id="Attr_FndS"> Funding Support </h3>
 
 
-<p class="p-title"> 
-  <b> UCSC iGEM 2017 </b> </SPAN> 
-</p>
+<h6> 
+  <b> UCSC iGEM 2017 </b>
+</h6>
 <p>
-  Provide monetary support for our team.
+  Thank you for providing monetary support for our 2018 team.
+</p><br>
+
+<h6> 
+  <b> Geogre Spix </b>
+</h6>
+<p>
+  Provided significant monetary support for the 2018 team and future iGEM teams.
 </p><br>
 
 </div>
 </div>
-
-
-
-
-
 
 
 <!--       **********************************************************************************      -->
@@ -479,39 +448,25 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="IndS">Industry Support</p>
+  <div class="flex-col">
+    <h3 id="Attr_IndS">Industry Support</h3>
 
-<p class="p-title">
-  <b> Fungal Genetics Stock Center, </b> 
-</p>
+<h6>
+  <b> Asana </b>   
+</h6>
 <p>
-  Provided the team with Yarrowia Lipolytica Strain.
+  Thank you for providing/sponsoring our team with free premium accounts to organize and communicate work ideas with each other.
 </p><br>
 
-
-<p class="p-title">
-  <b> Asana, </b>   
-</p>
+<h6>
+  <b> Fungal Genetics Stock Center </b> 
+</h6>
 <p>
-  Provided team with free premium accounts to organize and communicate work ideas with each other.
+  Thank you for providing our team with a <i><span style="font-size:125% !important">Yarrowia lipolytica</span></i> strain.
 </p><br>
 
-
-
+  </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--       *********************************************************************************      -->
@@ -521,48 +476,35 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="NPP"> Non Profit Partnerships </p>
-</div>
-</div>
+  <div class="flex-col">
+    <h3 id="Attr_NPP"> Non-Profit Partnerships </h3>
 
+<h6>
+  <b> Hank Pellissier, </b> 
+  <i>Director, Brighter Brains Institute</i>
+</h6>
+<p>
+  Pellissier provided our Human Practices team several women's groups to contact in Uganda.
+</p><br>
 
+<h6>
+  <b> Martyn Smith, </b> 
+  <i>Managing Director, Family Planning 2020</i>
+</h6>
+<p>
+  Thank you for providing us contacts to funding bodies that regulate drug production in several of our target countries. Martyn also passed on our team's message to his coworkers and partners, including the Bill and Melinda Gates Foundation.
+</p><br>
 
+<h6>
+  <b> John Townsend, </b> 
+  <i>Director, County Strategy, Population Council</i>
+</h6>
+<p>
+  John discussed possible pathways to further develop our contraceptive outside of the iGEM competition.
+</p><br>
 
-
-
-
-<br>
-<br>
-  <div class="flex-row">
-    <div class="content-divider">
-      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
-    </div>
   </div>
-<br>
-<br>
-<br>
-
-
-
-
-<!--       *********************************************************************************      -->
-<!--       ************************** Difficult Technique Support **************************      -->
-<!--       *********************************************************************************      -->
-
-
-<div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="DTS">Difficult Technique Support</p>
 </div>
-</div>
-
-
-
-
-
-
-
 
 
 
@@ -573,18 +515,19 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="PrsS">Presentation Support</p>
+  <div class="flex-col">
+    <h3 id="Attr_PrsS">Presentation Support</h3>
+
+<h6>
+  <b> Zia Isola, </b> 
+  <i>Director, Genomics Institute Office of Diversity Programs, University of California Santa Cruz</i>
+</h6>
+<p>
+  Zia helped us prepare our poster for the UCSC 9th Annual Physical and Biological Sciences Summer Research Symposium.
+</p><br>
+
+  </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
 
 
 <!--       *********************************************************************************      -->
@@ -594,28 +537,32 @@ i {
 <br>
 
 <div class="flex-row">
-<div class="flex-col">
-<p style="font-size:150% !important" class="week" id="GenS">General Support</p>
+  <div class="flex-col">
+    <h3 id="Attr_GenS">General Support</h3>
 
-
-<p class="p-title">
+<h6>
   <b> Russell Evans, </b> 
   <i> Senior Development Engineer, University of California, Santa Cruz, Campus Facilities </i>
-</p>
+</h6>
 <p>
-  Provided the <b> 2018 UCSC iGEM Team </b> with separate dry lab research and wet lab rooms. Provided technical and equipment support.
+  Thank you for providing the <b> 2018 UCSC iGEM Team </b> with separate dry lab research training and wet lab rooms. He also provided technical and equipment support.
 </p><br>
-</div>
-</div>
 
+  </div>
+</div>
+<br>
 
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
 <br>
 
 
-
-     <a href="http://2017.igem.org/Team:UCSC">
-       <img class="main_image" src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--2017Team.jpg" alt="2017 Team Image" style="margin-bottom:-40px">
-     </a>
+  <a href="http://2017.igem.org/Team:UCSC">
+    <img class="main_image" src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--2017Team.jpg" alt="2017 Team Image" style="margin-bottom:-40px">
+  </a>
 
 <script language="JavaScript">
 
