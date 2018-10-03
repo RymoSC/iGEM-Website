@@ -1,0 +1,80 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<head>
+</head>
+
+<style>
+
+.flex-row h3 {
+  padding-top: calc(75px + 0.5em);
+  margin-top: -75px;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/2/25/T--UCSC--Metabolic_Engineering_Background.jpg); background-position: 75% 60%">
+    <p class="header-title" style="top:50%;left:50%">
+      Design
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_anchor" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-page-list">
+  <li><h5> Project Pages</h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Description"> Description </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Design"> Design </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Target_Organism"> Target Organism </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Model"> Modeling </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Experiments"> Experiments </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Improve"> Improvement </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Results"> Results </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Demonstrate"> Demonstrate </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Notebook"> Notebook </a></li>
+</div>
+
+<div class="float-toc">
+  <li><h6 id="top_anchor"> Page Contents </h6></li>
+  <li><a href="#Desi_eng"> Engineering Principles </a></li>
+  <li><a href="#Desi_tim"> Timeline of Each Design </a></li>
+  <li><a href="#Desi_3"> </a></li>
+  <li><a href="#Desi_4"> </a></li>
+  <li><a href="#Desi_5"> </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h3 id="Desi_eng">Engineering Principles</h3>
+        <p></p>
+    </div>
+  </div>
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h3 id="Desi_tim">Timeline of Each Design</h3>
+        <h6>Which strain of yeast is the best fit for our project?</h6>
+        <h6>How do we construct our genes?</h6>
+        <h6>How will we transform our yeast?</h6>
+        <h6>How do we quantify the amount of progesterone in our yeast?</h6>
+        <h6>How can we ensure that our yeast if producing a specific amount of progesterone?</h6>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
