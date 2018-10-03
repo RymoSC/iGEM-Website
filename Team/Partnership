@@ -1,0 +1,70 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+
+<style>
+
+.flex-row .flex-col p {
+  padding-right: 1em;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/b/b9/T--UCSC--ITESGPhoto.png); background-position: bottom">
+    <p class="header-title">
+      Instituto Tecnol&#243;gico Superior de Guanajuato
+    </p>
+  </div>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-page-list team-pages">
+  <li><h5> Team Pages </h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Team"> Meet the Team </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Collaborations"> Collaborations </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Partnership"> Partnership </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Attributions"> Attributions </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Sponsors"> Sponsors </a></li>
+</div>
+
+
+
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+<div class="flex-row">
+
+  <div class="flex-col">
+    <h6 id="Part_red"> Reduction of Dairy Waste in Local Communities through the Extraction of Sugar from Whey </h6>
+    <p> This year, the 2018 UCSC iGEM team partnered with a team of undergraduate students from the Instituto Tecnol&oacute;gico Superior de Guanajuato (ITESG) in Mexico. ITESG approached the UCSC team in early spring to collaborate on a project that would reduce waste in farm communities. 
+    <br>
+        They developed methods for isolating lactose from whey, a dairy waste product. We will use the upcycled dairy waste as a low cost growth media for Y. lipolytica str. PoPPY. Because whey can be obtained from any milk-producing animal, it is widely available throughout the world. Using the methods that ITESG developed to isolate lactose, anyone with access to a milk-producing animal can create the growth media for PoPPY. 
+    </p>
+  </div>
+
+
+  <div class="flex-col">
+    <h6> Reduccion de los Desechos L&aacute;cteos en las Comunidades Locales a Trav&eacute;s de la Extracci&oacute;n de Az&uacute;car de Suero de Leche </h6>
+    <p> Este a&ntilde;o, el equipo de 2018 UCSC iGEM se asoci&oacute; con un equipo de estudiantes de pregrado del Instituto Tecnol&oacute;gico Superior de Guanajuato (ITESG) en M&eacute;xico. ITESG se acerc&oacute; al equipo de UCSC a principios de la primavera para colaborar en un proyecto que reducir&iacute;a el desperdicio en las comunidades agr&iacute;colas.
+    <br>
+        Desarrollaron m&eacute;todos para aislar la lactosa del suero de leche, un producto de desecho de l&aacute;cteos. Usaremos los desechos l&aacute;cteos reciclados como un medio de crecimiento de bajo costo para Y. lipolytica str. PoPPy. Debido a que el suero de leche se puede obtener de cualquier animal productor de leche, est&aacute; ampliamente disponible en todo el mundo. Usando los m&eacute;todos que ITESG desarroll&oacute; para aislar la lactosa, cualquiera que tenga acceso a un animal productor de leche puede crear los medios de crecimiento para PoPPY.
+    </p>
+  </div>
+
+
+</div>
+
+
+<br>
+<br>
+
+
+
+</div>
+</body>
+</html>
+{{:Team:UCSC/Footer}}
