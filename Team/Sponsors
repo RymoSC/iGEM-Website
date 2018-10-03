@@ -1,8 +1,44 @@
 {{:Team:UCSC/NavBar}}
 
 <html>
-<head>
-</head>
+
+<!-- TODO: host all images on our own namespace! -->
+
+<style>
+
+#sponsors_row {
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+  overflow: hidden;
+}
+
+#sponsors_row .flex-col {
+  min-width: 25vw;
+  transition: transform .2s; /* Animation */
+  padding: 0;
+  margin-top: 5vh;
+}
+
+#sponsors_row .constrict {
+  max-width: 300px;
+  margin: 0;
+}
+
+#sponsors_row .flex-col a {
+  justify-content: center;
+}
+
+#sponsors_row .flex-col a img {
+  width: 100%;
+  
+}
+
+#sponsors_row .flex-col:hover {
+  transform: scale(1.25); /* (125% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+</style>
+
 <body>
 
   <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/3/34/T--UCSC--SponsorBackground.png); background-position: center">
@@ -13,85 +49,77 @@
 
   <div class="flex-row">
     <div class="flex-col">
-      <p class="p-title">Thank You</p>
+      <h6>Thank You</h6>
       <p>
-        We would like to take this chance to thank all of our sponsors that have made this project possible. If you have free time, please take this opportunity to click on one of the logos below and check out their websites.
+        We would like to take this chance to thank all of our sponsors that have made this project possible. Take this opportunity to click on one of the logos below and check out their websites!
       </p>
     </div>
   </div>
 
 
+<!-- ---- List of Sponsors ----- -->
 
-
-<div align="center">
-<footer class="flex-row">
-  <div class="flex-col">
-
-    <div id="firstLink" class="column_body2">
-      <a href="https://www.geneious.com">
-        <div class="image_container2">
-          <img id="firstImage" src="http://assets.geneious.com/manual/8.0/geneious_logo.png" alt="Team Image" style="width:125%" 
-          class="image_box">
-          <div class="middle-details">
-           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Geneious</div>
-          </div>
-       </div>
+<div id="sponsors_row" class="flex-row">
+  <div id="firstLink" class="flex-col">
+    <div class="constrict">
+      <a href="https://www.geneious.com" target="_blank">
+          <img id="firstImage" src="http://assets.geneious.com/manual/8.0/geneious_logo.png" alt="Geneious Logo">
       </a>
     </div>
+  </div>
 
-    <div id="secondLink" class="column_body2">
-      <a href="https://asana.com">
-        <div class="image_container2">
-          <img id="thirdImage" src="http://2018.igem.org/wiki/images/c/c3/T--UCSC--AsanaLogo.png" alt="Team Image" style="width:125%" 
-          class="image_box">
-          <div class="middle-details">
-           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Asana</div>
-          </div>
-       </div>
+  <div id="thirdLink" class="flex-col">
+    <div class="constrict">
+      <a href="https://www.idtdna.com/pages" target="_blank">
+          <img id="fourthImage" src="https://www.roswellpark.org/sites/default/files/idt_logo_2014_outlines.png" alt="IDT logo: Integrated DNA Technologies">
       </a>
     </div>
+  </div>
 
-    <div id="thirdLink" class="column_body2">
-      <a href="https://www.idtdna.com/pages">
-        <div class="image_container2">
-          <img id="fourthImage" src="https://www.roswellpark.org/sites/default/files/idt_logo_2014_outlines.png" alt="Team Image" style="width:125%" 
-          class="image_box">
-          <div class="middle-details">
-           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">IDT</div>
-          </div>
-       </div>
+  <div id="fourthLink" class="flex-col column_body2">
+    <div class="constrict">
+      <a href="https://www.zymoresearch.com" target="_blank">
+          <img id="fifthImage" src="http://2018.igem.org/wiki/images/7/74/T--UCSC--ZymoLogo.png" alt="Zymo logo: Zymo Research, The Beauty of Science is to Make Things Simple">
       </a>
     </div>
+  </div>
 
-    <div id="fourthLink" class="column_body2">
-      <a href="https://www.zymoresearch.com">
-        <div class="image_container2">
-          <img id="fifthImage" src="http://2018.igem.org/wiki/images/7/74/T--UCSC--ZymoLogo.png" alt="Team Image" style="width:125%" 
-          class="image_box">
-          <div class="middle-details">
-           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">Zymo Research</div>
-          </div>
-       </div>
+  <div id="fifthLink" class="flex-col column_body2" style="margin-left:15%">
+    <div class="constrict">
+      <a href="https://www.vwr.com" target="_blank">
+          <img id="secondImage" src="http://www.aidforum.org/images/sized/images/directory/logos/VWR_WeEnableScience_CMYK-584x189.gif" alt="VWR logo: We Enable Science">
       </a>
     </div>
+  </div>
 
-    <div id="fifthLink" class="column_body2">
-      <a href="https://www.vwr.com">
-        <div class="image_container2">
-          <img id="secondImage" src="http://www.aidforum.org/images/sized/images/directory/logos/VWR_WeEnableScience_CMYK-584x189.gif" alt="Team Image" style="width:125%" 
-          class="image_box">
-          <div class="middle-details">
-           <div id="middle-text-class1" class="middle-text" style="font-size:1.8em;font-weight:bold">VWR Technologies</div>
-          </div>
-       </div>
+  <div id="seventhLink" class="flex-col column_body2">
+    <div class="constrict">
+      <a href="https://www.mathworks.com" target="_blank">
+          <img id="secondImage" src="http://2018.igem.org/wiki/images/f/f6/T--UCSC--MathworksLogo.jpeg" alt="Mathworks Logo">
       </a>
     </div>
+  </div>
+
+  <div id="secondLink" class="flex-col column_body2" style="margin-left:15%">
+    <div class="constrict">
+      <a href="https://asana.com" target="_blank">
+          <img id="thirdImage" src="http://2018.igem.org/wiki/images/c/c3/T--UCSC--AsanaLogo.png" alt="Asana logo">
+      </a>
+    </div>
+  </div>
+
+  <div id="sixthLink" class="flex-col column_body2">
+    <div class="constrict">
+      <a href="http://www.wolfram.com/" target="_blank">
+          <img id="secondImage" src="http://2018.igem.org/wiki/images/7/71/T--UCSC--wolframLogo.png" alt="Wolfram logo: Computation Meets Knowledge">
+      </a>
+    </div>
+  </div>
 
 
 </div>
-</div>
-</div>
 
+<br>
 
 </body>
 </html>
