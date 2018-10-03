@@ -1,0 +1,37 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<head>
+</head>
+<body>
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/6/60/T--UCSC--Page_In_Progress.png); background-position: 50% 50%">
+    <p class="header-title" style="top:50%;left:50%">
+     Parts
+    </p>
+    <p class="header-title-progress"> Page in Progress </p>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <p class="p-title">Page in progress. Come Back Later</p>
+    </div>
+  </div>
+
+
+
+<div class="flex-row">
+  <div class="flex-col">
+</html>
+
+    <groupparts> UCSC </groupparts>
+
+<html>
+  </div>
+</div>
+
+
+</body>
+</html>
+{{:Team:UCSC/Footer}}
