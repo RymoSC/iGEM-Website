@@ -1,0 +1,25 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<head>
+</head>
+<body>
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/7/7c/T--UCSC--Modeling_Background.jpeg); background-position: center">
+    <p class="header-title" style="top:50%;left:50%">
+     Modeling
+    </p>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <p class="p-title">Page in progress. Come Back Later</p>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
