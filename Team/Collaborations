@@ -1,0 +1,137 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+
+<style>
+
+/* .float-toc-r a {
+  padding: calc((100vh - (150px + 84px) - 31px*7)/(2*7)) 1em;
+} */
+
+.flex-col {
+  overflow: hidden;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/d/db/T--UCSC--Collab_Background_New.png); background-position: top">
+    <p class="header-title" style="top:50%;left:50%">
+     Collaborations
+    </p>
+  </div>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<!--
+<div class="float-toc team-pages">
+  <li><h5> Team Pages </h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Team"> Meet the Team </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Collaborations"> Collaborations </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Partnership"> Partnership </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Attributions"> Attributions </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Sponsors"> Sponsors </a></li>
+</div>
+-->
+
+<div class="float-toc">
+  <li><h6> Collaborators </h6></li>
+  <li><a href="#Coll_UoM"> University of Minnesota </a></li>
+  <li><a href="#Coll_Mon"> Montpellier, France </a></li>
+  <li><a href="#Coll_Tec"> TecCEM </a></li>
+  <li><a href="#Coll_ULa"> ULaval </a></li>
+  <li><a href="#Coll_Bie"> Bieldefeld </a></li>
+  <li><a href="#Coll_Bor"> Bordeaux </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6><b> The Importance of Collaboration </b></h6>
+      <p>The iGEM Competition stresses the importance of collaborations between scientists and encourages teams to significantly collaborate with one or more iGEM teams. Collaboration is an important component of scientific research in general, as it teaches will-be scientists to exchange ideas and assist others in their innovations. Our team has collaborated with several iGEM teams as well as a team of undergraduate researchers outside of the iGEM Competition.</p>
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div><br>
+
+  <div class="flex-col">
+  <h6 id="Coll_UoM"> University of Minnesota (UM) iGEM Team </h6>
+  <a href="http://2018.igem.org/Team:Minnesota">
+  <img src="http://2018.igem.org/wiki/images/5/58/T--UCSC--UM.png" class="image-inpage floatL" style="width:30%; border:none">
+  </a>
+     <p> Our collaboration with the University of Minnesota (UM) iGEM team began when four UCSC team members Skyped with two members of the UM team. During the meeting, we exchanged information about our projects and our progress on them, and we noticed that the human practices portion of UM’s project was lacking; with our strong background in outreach and human practices, we helped UM develop their own. Four of our iGEM team members met the UM team at their lab in Minnesota. When talking with them, we realized that their project had much more potential value than they were aiming for; we advised their team to reach out to areas affected by their project target (mercury ion pollution), and to speak with  environmental regulatory groups in Minnesota to gain insight about potential users. We also suggested they start a crowdfunding campaign so their entire team can attend the Jamboree in Boston, since they had not considered that to be an option. We believe we significantly helped the UM team by mentoring them in these various aspects of their project. </p>
+  </div>
+
+
+  <div class="flex-col">
+  <h6 id="Coll_Mon"> iGEM Team in Montpellier, France </h6>  
+  <a href="http://2018.igem.org/Team:Montpellier">
+  <img src="http://2018.igem.org/wiki/images/6/62/T--UCSC--MP.png" class="image-inpage floatR" style="width:30%; border:none">
+  </a>
+     <p> We discovered an iGEM team in Montpellier, France through the iGEM Troubleshooting & Collaborations Facebook page created by iGEM Thessaloniki. Their project, <i>Vagineering</i>, aims to create a non-hormonal contraceptive. Our projects both address inadequate access to contraception, so we were interested in collaborating with them. UCSC team members Skyped with the Montpellier members and discussed our projects and progress. We suggested that the Montpellier team spend more time developing their final product since they had not considered dosage, ways to switch off production of the contraceptive, or a delivery method. We may also teach them about riboswitches or other regulation methods that might be applicable to their project. </p>
+  </div>
+
+
+  <div class="flex-col">
+  <h6 id="Coll_Tec">iGEM TecCEM</h6>
+  <a href="http://2018.igem.org/Team:TecCEM">
+  <img src="http://2018.igem.org/wiki/images/9/91/T--UCSC--TEC.png" class="image-inpage floatL" style="width:20%; 
+  border:none">
+  </a>
+     <p> The TecCEM iGEM team approached our team with an interesting proposal; their team wanted to create a fun iGEM-themed music video showcasing iGEM teams from around the world. They requested we take a brief video of our team dancing to the Maroon 5 song "Moves like Jagger" that they would turn into a fun parody called "Moves like iGEM". This collaboration was brief, but we had fun coordinating with other iGEM teams worldwide for a fun side-project. </p>
+  </div>
+
+
+  <div class="flex-col">
+  <h6 id="Coll_ULa">iGEM ULaval</h6>
+  <a href="http://2018.igem.org/Team:ULaval">
+  <img src="http://2018.igem.org/wiki/images/6/66/T--UCSC--ULAVAL.png" class="image-inpage floatR" style="width:30%; 
+  border:none">
+  </a>
+     <p> The ULaval iGEM team is working with <i>S. cerevisiae</i> to create adrenaline, noradrenaline, and dopamine. They contacted us to discuss product isolation and quantification, since we are also working with yeast. Their team gave us a few tips to find an HPLC column and machine for our initial, in-lab quantification. </p>
+  </div>
+
+
+  <div class="flex-col">
+  <h6 id="Coll_Bie">iGEM Bieldefeld</h6>
+  <a href="http://2018.igem.org/Team:Bielefeld-CeBiTec">
+  <img src="http://2018.igem.org/wiki/images/4/4f/T--UCSC--BIELEFELD.png" class="image-inpage floatL" style="width:30%; 
+  border:none">
+  </a>
+     <p> The iGEM team from Bielefeld asked our team to participate in their outreach research by completing an online survey about Dual Use and Dual Use Research of Concern.</p>
+  </div>
+
+
+  <div class="flex-col">
+  <h6 id="Coll_Bor">iGEM Bordeaux</h6>
+  <a href="http://2018.igem.org/Team:Bordeaux">
+  <img src="http://2018.igem.org/wiki/images/8/80/T--Bordeaux--sponsobordeaux.png" class="image-inpage floatR" 
+  style="width:30%; border:none">
+  </a>
+     <p> The iGEM team from Bordeaux asked our team to participate in their outreach research by completing an online survey 
+  about familiarity with forests. </p>
+  </div>
+
+
+  </div>
+</div>
+
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
