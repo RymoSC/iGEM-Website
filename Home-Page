@@ -45,7 +45,7 @@
 </div>
 
 
-<h6 align="center" style="font-size: 1.5em; font-family: 'catamaranlight';">Click Below To Learn More!</h6>
+<h6 align="center" style="font-size: 1.2em; font-family: 'roboto300';">Click one of the links below to learn more!</h6>
 <br>
 
 <div align="center">
@@ -122,8 +122,8 @@ function myFunction() {
       document.getElementById("secondImage").style="width:150%;"
       document.getElementById("thirdImage").style="width:150%;float:right"
       document.getElementById("fourthImage").style="width:170%;float:right"
-      document.getElementById("firstImage").src="http://2018.igem.org/wiki/images/b/b6/T--UCSC--InfoMobile.png"
-      document.getElementById("secondImage").src="http://2018.igem.org/wiki/images/4/48/T--UCSC--TeamImage_Mobile.png"
+      document.getElementById("firstImage").src="http://2018.igem.org/wiki/images/4/48/T--UCSC--TeamImage_Mobile.png"
+      document.getElementById("secondImage").src="http://2018.igem.org/wiki/images/b/b6/T--UCSC--InfoMobile.png"
       document.getElementById("thirdImage").src="http://2018.igem.org/wiki/images/4/4d/T--UCSC--PartnershipMobile.png"
       document.getElementById("fourthImage").src="http://2018.igem.org/wiki/images/a/aa/T--UCSC--ITESG_Mobile.png"
       document.getElementById("video-class").style="top:60%;left:66%"
@@ -143,6 +143,7 @@ function myFunction() {
   $('map').imageMapResize();
 
 </script>
+
 
 
 </html>
