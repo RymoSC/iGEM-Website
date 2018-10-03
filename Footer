@@ -3,9 +3,9 @@
 
 <footer class="flex-row" id="footer_row" style="margin-bottom:-16px; padding-top:12px; padding-bottom:12px">
 
-        <a href="https://www.facebook.com/ucscigem/" style="text-decoration: none !important;"><i class="fa fa-facebook-official social-icons"></i></a>
-        <a href="https://twitter.com/ucsc_igem" style="text-decoration: none !important;"><i class="fa fa-twitter fa-2x social-icons"></i></a>
-        <a href="https://www.instagram.com/igem_ucsc/" style="text-decoration: none !important;"><i class="fa fa-instagram fa-2x social-icons"></i></a>
+        <a href="https://www.facebook.com/ucscigem" style="text-decoration: none !important;"><i class="fa fa-facebook-official social-icons"></i></a>
+        <a href="https://twitter.com/IgemUcsc" style="text-decoration: none !important;"><i class="fa fa-twitter fa-2x social-icons"></i></a>
+        <a href="https://www.instagram.com/igem_ucsc" style="text-decoration: none !important;"><i class="fa fa-instagram fa-2x social-icons"></i></a>
 
 </footer>
 
