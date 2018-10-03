@@ -1,8 +1,19 @@
 {{:Team:UCSC/NavBar}}
 
 <html>
-<body>
+<!-- {{UCSC/toc-project}} -->
 
+<style>
+
+#E_list li {
+  padding-left: 5em;
+  text-indent: -6.35em;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
 
 
   <div class="header-image" id="header_image_description" style="background-image: url(http://2018.igem.org/wiki/images/b/bd/T--UCSC--Description_Background.jpeg); background-position: 45% 50%">
@@ -11,19 +22,107 @@
     </p>
   </div>
 
+  <!-- Include arrow to jump to top -->
+  <a href="#top_anchor" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-page-list">
+  <li><h5> Project Pages</h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Description"> Description </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Design"> Design </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Target_Organism"> Target Organism </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Model"> Modeling </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Experiments"> Experiments </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Improve"> Improvement </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Results"> Results </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Demonstrate"> Demonstrate </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Notebook"> Notebook </a></li>
+</div>
+
+<div class="float-toc">
+  <li><h6 id="top_anchor"> Page Contents </h6></li>
+  <li><a href="#Desc_ove"> Overview </a></li>
+  <li><a href="#Desc_sig"> Significance </a></li>
+  <li><a href="#Desc_met"> Methods </a></li>
+  <li><a href="#Desc_goa"> Goals </a></li>
+  <li><a href="#Desc_fin"> Final Deliverable </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+
+
   <div class="flex-row" id="top_row">
     <div class="flex-col">
-      <p class="p-title">Overview</p>
-      <p>This year’s project seeks to address the global lack of family planning services. The luxury to choose when, and if, to start a family directly affects one’s ability to pursue an education, sports, a career, etc. Our hope is to localize contraception production and increase availability in developing nations. Progesterone, a hormone naturally produced by women, can be used to suppress ovulation and act as a form of contraception. The yeast strain <i>Yarrowia Lipolytica</i> (<i>Y. Lipolytica</i>), a generally recognized as safe (GRAS) organism by the FDA, has an advanced genetic toolbox and can be easily grown in most environments. We will engineer <i>Y. Lipolytica</i> to produce progesterone with the goal of creating a product that can be used within the home to grow one’s own contraceptives.</p>
-
-      <p class="p-title">Methods</p>
-      <p>We will perform three parallel methods, each having an intended end-product of progesterone-producing <i>Y. lipolytica</i>. In the first experiment, we will use Gibson Assembly to create the gene cassette and homologous recombination to insert the cassette into the <i>Y. lipolytica</i> genome. In the second method, we will use yeast-mediated cloning in Saccharomyces cerevisiae to create the gene cassette and Cre-lox recombination to insert the cassette into the <i>Y. lipolytica</i> genome. In the final method, we will use yeast-mediated cloning to create the gene cassette and Cre-lox recombination to insert the cassette, both within <i>Y. lipolytica</i>. We will quantify the amount of progesterone produced using a riboswitch. </p>
-
-      <p class="p-title">Final Deliverable</p>
-      <p>We will create a progesterone-producing yeast that can grow on whey, a dairy by-product, essentially creating a sustainable and affordable “grow-at-home” contraceptive for women anywhere in the world. </p>
+      <h6 id="Desc_ove">Overview</h6>
+      <p>This year’s UCSC iGEM team seeks to <b>address the global lack of family planning services</b>. The luxury to choose when, and if, to start a family directly affects one’s ability to pursue an education, sports, a career, etc. Our hope is to <b>localize contraception production and increase availability in developing nations</b>. Progesterone, a hormone naturally produced by women, can be used to suppress ovulation and act as a form of contraception. The yeast <i>Yarrowia lipolytica</i> is an organism that is considered generally recognized as safe (GRAS) by the Food and Drug Administration. It has an advanced genetic toolbox and can also be easily grown in most environments. We will engineer a strain of <i>Y. lipolytica</i> to produce progesterone with the goal of creating a product that can be used within the home to grow one’s own contraceptives.</p>
     </div>
   </div>
 
+
+
+  <div class="flex-row">
+    <div class="content-divider">
+      <img src="http://2018.igem.org/wiki/images/d/d9/T--UCSC--FlowerDivider.png" alt="divider image">
+    </div>
+  </div>
+<br>
+
+
+
+  <div class="flex-row" style="flex-grow:1">
+    <div class="flex-col" style="flex-grow:1">
+      <h6 id="Desc_sig"> Significance </h6>
+      <img src="http://2018.igem.org/wiki/images/1/1e/T--UCSC--YLip.jpg" style="width: 90%;" class="image-inpage floatL">
+    
+      <p>For women who live far from contraceptive providers, a common theme is traveling a great distance to find that “the provider has [run] out” or to “find no doctors” to administer injectable forms. Our progesterone-producing <i>Y. lipolytica</i> will survive on animal milk. Animals that produce milk are widely available, even in developing countries, so anyone with access to milk can <b>grow their own contraceptives</b>.</p> 
+      <p> Rumors are another common theme in responses to our outreach; some, like birth control causes women to “produce lame, blind children”, are extreme. Part of this stigma may lie in how modern birth control “pills” are made in factories with chemical compounds. Our team will also <b>educate communities</b> about modern birth control methods and alleviate fears by addressing rumors.</p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Desc_met"> Methods </h6>
+      <p>We will perform three parallel methods, each having an intended end-product of progesterone-producing <i>Y. lipolytica</i>. 
+      <ol id="E_list" style="list-style-type: none;">
+        <li>Experiment 1: We will use <b>Gibson Assembly</b> to create the gene cassette and <b>homologous recombination</b> to insert the cassette into the <i>Y. lipolytica</i> genome. 
+        <li>Experiment 2: We will use <b>yeast-mediated cloning</b> in <i>Saccharomyces cerevisiae</i> to create the gene cassette and <b>Cre-Lox recombination</b> to insert the cassette into the <i>Y. lipolytica</i> genome. 
+        <li>Experiment 3: We will use <b>yeast-mediated cloning</b> to create the gene cassette and <b>Cre-Lox recombination</b> to insert the cassette, both within <i>Y. lipolytica</i>. 
+      </ol>
+      We will quantify the amount of progesterone produced in each experiment using a <b>riboswitch</b>. </p>
+      <a href="http://2018.igem.org/Team:UCSC/Experiments">Click here to learn more about each experiment we are running</a>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Desc_goa"> Goals </h6>
+
+       <img src="http://2018.igem.org/wiki/images/9/95/T--UCSC--Kyogha.jpg" style="width: 90%;" class="image-inpage floatR">
+
+      <p>In lab, we will insert five genes to <b>complete the progesterone pathway in <i>Y. lipolytica</i></b>, confirm that the strain can <b>survive on dairy and produce progesterone</b>, and <b>quantify the progesterone produced</b>. Long term, we want to make birth control affordable and sustainable for women in developing countries. We also want to raise awareness about contraceptives by correcting common misconceptions about birth control and providing women with a safe contraceptive. Finally, we plan to aid women in low-resource areas by raising and donating money to Family Planning 2020, the Brighter Brains Institute, and the women’s groups who have told us about their experiences with contraceptives.  </p>
+<a href="http://2018.igem.org/Team:UCSC/Target_Organism">Click here to learn more about our target organism, <i>Yarrowia lipolytica</i></a>
+<br>
+<a href="http://2018.igem.org/Team:UCSC/Human_Practices">Click here to learn more about our human outreach</a>
+
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Desc_fin"> Final Deliverable </h6>
+      <p><b>We will create a progesterone-producing yeast that can grow on dairy, creating a sustainable and affordable “grow-at-home” contraceptive for women anywhere in the world. </b> </p>
+    </div>
+  </div>
+
+
+</div>
 </body>
 </html>
 
