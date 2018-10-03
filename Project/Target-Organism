@@ -1,31 +1,74 @@
 {{:Team:UCSC/NavBar}}
 
 <html>
-<head>
-</head>
-<body>
+
+<style>
+
+.float-toc a {
+  padding: calc((100vh - (150px + 84px) - 30px*9)/(4*9)) 1em;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
 
   <div class="header-image" id="header_image_targetOrganism" style="background-image: url(http://2018.igem.org/wiki/images/e/ea/T--UCSC--Yarrowia.png); background-position: center">
     <p class="header-title">
-      Yarrowia Lipolytica
+      <i> Yarrowia lipolytica </i>
     </p>
   </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_anchor" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-page-list">
+  <li><h5> Project Pages </h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Description"> Description </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Design"> Design </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Target_Organism"> Target Organism </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Model"> Modeling </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Experiments"> Experiments </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Improve"> Improvement </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Results"> Results </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Demonstrate"> Demonstrate </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Notebook"> Notebook </a></li>
+</div>
+
+<div class="float-toc">
+  <li><h6 id="top_anchor"> Page Contents <h6></li>
+  <li><a href="#Targ_pic"> Picking a Strain </a></li>
+  <li><a href="#Targ_gen"> General Information </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
 
 
   <div class="flex-row" style="flex-grow:1">
     <div class="flex-col" style="flex-grow:2">
-      <p class="p-title">Picking a Strain</p>
+      <h6 id="Targ_pic"> Picking a Strain </h6>
      <p>
-The yeast strain Y. lipolytica was a promising species because it is classified as a “Generally Regarded as Safe” organism, found in several foods<sup class="ref"><a href="#ref-0" title="Reference">[1]</a></sup>, used for biotechnological applications, and shown to survive on unconventional carbon sources like glycerol and oil<sup class="ref"><a href="#ref-0" title="Reference">[2]</a></sup>. We considered several alternative hosts found that Y. lipolytica outperformed all alternative hosts in heterologous protein expression and high transformation frequency during homologous recombination of linearized plasmids<sup class="ref"><a href="#ref-0" title="Reference">[3]</a></sup>. Y. lipolytica exhibits low side-product formation and high substrate specificity which is ideal for producing a single product like progesterone<sup class="ref"><a href="#ref-0" title="Reference">[4]</a></sup>. The yeast also produces a fruity aroma by converting methyl ricinoleate to gamma-decalactone; we considered this a potential benefit, as our method requires that Y. lipolytica be consumed orally<sup class="ref"><a href="#ref-0" title="Reference">[5]</a></sup>.
+The yeast strain <i>Yarrowia lipolytica</i> was a promising species because it is classified as a “Generally Regarded as Safe” organism, found in several foods<sup class="ref"><a href="#ref-0" title="Reference">[1]</a></sup>, used for biotechnological applications, and shown to survive on unconventional carbon sources like glycerol and oil<sup class="ref"><a href="#ref-0" title="Reference">[2]</a></sup>. We considered several alternative hosts but found that <i>Y. lipolytica</i> outperformed them all in heterologous protein expression and high transformation frequency during homologous recombination of linearized plasmids<sup class="ref"><a href="#ref-0" title="Reference">[3]</a></sup>. <i>Y. lipolytica</i> exhibits low side-product formation and high substrate specificity, which is ideal for producing a single product like progesterone<sup class="ref"><a href="#ref-0" title="Reference">[4]</a></sup>. The yeast also produces a fruity aroma by converting methyl ricinoleate to gamma-decalactone; we considered this to be a benefit, as our delivery method is for <i>Y. lipolytica</i> to be consumed orally<sup class="ref"><a href="#ref-0" title="Reference">[5]</a></sup>.
      </p>
      <p>
-S. cerevisiae is a common host organism for engineering purposes because it uses homologous recombination, a favorable DNA repair mechanism for inserting genes. Y. lipolytica has a propensity for a less favorable DNA repair mechanism, non-homologous end joining (NHEJ). To circumvent this problem, we searched for a strain that had the NHEJ mechanism, which is controlled by the Ku70 gene, knocked out. Our project also required auxotrophic markers for selective screening of our transformants, so we looked for a URA3 and LEU2 auxotroph. The paper by Verbeke et. al described the JMY2394 strain, which satisfied our parameters but was unavailable to us. We searched for a similar strain and settled on FKP393 by recommendation of Erin Bredeweg of the Pacific Northwest National Laboratory<sup class="ref"><a href="#ref-0" title="Reference">[6]</a></sup>. FKP393 is a NHEJ mutant derived by transformation of Po1g with the specifications matA; leu2-270; ura3; xpr2-332; axp-2; ku70::hph+<sup class="ref"><a href="#ref-0" title="Reference">[7]</a></sup>. This strain includes all of our specifications but lacks sufficient annotation. We were informed by Cory Schwartz of UC Riverside that this was not an issue, because the parent strain is the well-studied W29 which we can use for genome analysis. We recieved the FKP393 strain from the Fungal Genetics Stock Center at the Kansas State University<sup class="ref"><a href="#ref-0" title="Reference">[8]</a></sup>.
-      </p>
+<i>Saccharomyces cerevisiae</i> is a common host organism for engineering purposes because it uses homologous recombination, a favorable DNA repair mechanism for inserting genes. <i>Y. lipolytica</i> has a propensity for a less favorable DNA repair mechanism, non-homologous end joining (NHEJ). To circumvent this problem, we searched for a strain that had the NHEJ mechanism, which is controlled by the Ku70 gene, knocked out. Our project also required auxotrophic markers for selective screening of our transformants, so we looked for a URA3 and LEU2 auxotroph. The paper by Verbeke et. al described the JMY2394 strain, which satisfied our parameters but was unavailable to us. We searched for a similar strain and settled on FKP393 by recommendation of Erin Bredeweg of the Pacific Northwest National Laboratory<sup class="ref"><a href="#ref-0" title="Reference">[6]</a></sup>. FKP393 is a NHEJ mutant derived by transformation of Po1g with the specifications matA; leu2-270; ura3; xpr2-332; axp-2; ku70::hph+<sup class="ref"><a href="#ref-0" title="Reference">[7]</a></sup>. This strain includes all of our specifications but lacks sufficient annotation. We were informed by Cory Schwartz of UC Riverside that this was not an issue, because the parent strain is the well-studied W29 which we can use for genome analysis. We received the FKP393 strain from the Fungal Genetics Stock Center at the Kansas State University<sup class="ref"><a href="#ref-0" title="Reference">[8]</a></sup>.
+      </p> <br>
     </div>
     <div class="flex-col">
-      <p class="image-inpage-title" style="width:80%"> Yarrowia lipolytica  Synthetic Pathway </p>
+      <p class="image-inpage-title" style="width:80%"> <i>Yarrowia lipolytica</i>  Synthetic Pathway </p>
       <img src="http://2018.igem.org/wiki/images/6/61/T--UCSC--YarrowiaPathway.jpg" width="80%" class="image-inpage">
-      <p class="image-inpage-caption" style="width:80%"> Figure 1: The pathway above shows one of the products of our strain of Yarrowia lipolytica, Ergosterol, and the pathway following to produce progesterone.</p>
+      <p class="image-inpage-caption" style="width:80%; font-size:85% !important"> Figure 1: The pathway above shows one of the products of our strain of <i>Yarrowia lipolytica</i>, ergosterol, and the pathway following to produce progesterone. * Two genes, FDX1 and ADR, are also required to be inserted in the "metabolic shunt" for <i>Y. lipolytica</i> to produce pregnenolone.</p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Targ_gen">General Information</h6>
+      <p> Will be updated at a later date </p>
     </div>
   </div>
 
@@ -48,6 +91,7 @@ S. cerevisiae is a common host organism for engineering purposes because it uses
   </div>
 
 
+</div>
 </body>
 </html>
 
