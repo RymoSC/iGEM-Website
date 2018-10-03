@@ -1,0 +1,290 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+
+<style>
+
+.noBorder {
+  border: none;
+}
+
+</style>
+
+<body style="overflow-x: visible;">
+<div class="toc-body">
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/4/4b/T--UCSC--Experiment_Cover_Photo.jpg); background-position: 50% 0%">
+    <p class="header-title" style="top:50%;left:50%">
+     Experiments
+    </p>
+  </div>
+
+  <!-- Include arrow to jump to top -->
+  <a href="#top_anchor" class="scroll-to-top"><img src="http://2018.igem.org/wiki/images/c/cd/T--UCSC--Arrow.png"></a>
+
+
+<!--       ************************************* Table of Contents ***************************************      -->
+
+<div class="float-page-list">
+  <li><h5> Project Pages </h5></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Description"> Description </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Design"> Design </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Target_Organism"> Target Organism </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Model"> Modeling </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Experiments"> Experiments </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Improve"> Improvement </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Results"> Results </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Demonstrate"> Demonstrate </a></li>
+  <li><a href="http://2018.igem.org/Team:UCSC/Notebook"> Notebook </a></li>
+</div>
+
+<div class="float-toc">
+  <li><h6 id="top_anchor"> Page Contents </h6></li>
+  <li><a href="#Expe_ove"> Overview </a></li>
+  <li><a href="#Expe_ex0"> Experiment 0 </a></li>
+  <li><a href="#Expe_ex1"> Experiment 1 </a></li>
+  <li><a href="#Expe_ex2"> Experiment 2 </a></li>
+  <li><a href="#Expe_ex3"> Experiment 3 </a></li>
+  <li><a href="#Expe_qua"> Quantification </a></li>
+  <li><a href="#Expe_pro"> Protocols </a></li>
+</div>
+
+<!--       ********************************** End Table of Contents **************************************      -->
+
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_ove"> Overview </h6>
+      <p>Our team will use synthetic biology to address insufficient access to contraception by engineering a progesterone-producing yeast. We will construct our gene cassettes and insert them into the <i>Yarrowia lipolytica</i> genome in three parallel experiments. In all experiments, we will use the strain FKP393 with the auxotrophic markers <i>LEU2</i> and <i>URA3</i> for selection. We will insert <i>URA3</i> into the <i>Y. lipolytica</i> genome using homologous recombination (HR) and select for recombinant strains using <i>URA3</i>-deficient media. We have designed LoxP and Lox71 sites to flank <i>URA3</i> for use in Experiments 2 and 3. We will amplify out 1 kb fragments upstream and downstream of the <i>ADE2</i> gene in <i>Y. lipolytica</i> for use as our homology arms (HAs). </p>
+    </div>
+  </div>
+
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_ex0"> Experiment 0 </h6>
+      <p>In Experiment 0, we will use Gibson Assembly (GA) to assemble the gene block of <i>URA3</i> flanked by two Lox sites, the amplified HAs from the <i>Y. lipolytica</i> genome, and the linearized pUC19 plasmid. To facilitate the GA, the HAs will have homologous regions attached to their ends using primer-flags. The 5’ end of the upstream arm will have homology with the pUC19 plasmid, and the 3’ end will have homology with the gene blocks which have homologous overlapping regions for the pXRL2 plasmid. On the downstream arm, the 5’ end will have homology with the gene blocks (pXRL2), and the 3’ end will have homology with the pUC19 plasmid. On the ends of the LoxP-<i>URA3</i>-Lox71 gene block, we will design homologous ends to the 3’ end of the upstream and to the 5’ end of the downstream HAs. Our LoxP-<i>URA3</i>-Lox71 gene block will ligate to the HAs, and the HAs will ligate to the pUC19 plasmid to assemble our full pOPPY-UC19-yXXU plasmid. We will then insert our Lox sites into the <i>Y. lipolytica</i> genome using homologous recombination to create the <i>Y. lipolytica str. LipLox</i>.</p>
+      <br>
+      <img src="http://2018.igem.org/wiki/images/2/2d/T--UCSC--Experiment_0_Overview.jpg" class="image-inpage large noBorder">
+      <br>
+      <p class="image-inpage-caption" style="width:66%; font-size:85% !important"> Figure 1: Creation of pOPPY-UC19-yXXU containing URA3, pUC19 backbone, Lox sites and homologous arms using Gibson Assembly. Transformation of Y. lipolytica to create <i>Y. lipolytica str. LipLox</i> homologous recombination. </p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_ex1"> Experiment 1 </h6>
+       <p>In Experiment 1, we will use GA to assemble our five progesterone pathway genes and our HAs into the linearized pUC19 plasmid to create the pOPPY-UC19-yP plasmid. We will transform this engineered plasmid into <i>E. coli</i> for replication and then isolate the plasmids. We will linearize pOPPY-UC19-yP using the restriction enzyme <i>Sma1</i>, which cuts the plasmid in the multiple cloning sites between the HAs, and then insert the progesterone genes into <i>Y. lipolytica</i> using HR. We will select for our recombinant yeast on 5-Fluoroorotic Acid (5-FOA) enriched with <i>URA3</i> to select for cells that have successfully exchanged the <i>URA3</i> gene between the HAs for our gene insert.</p>
+      <br>
+      <img src="http://2018.igem.org/wiki/images/8/80/T--UCSC--Experiment_1_Overview.jpg" class="image-inpage large noBorder">
+      <br>
+      <p class="image-inpage-caption" style="width:66%; font-size:85% !important"> Figure 2: Creation of pOPPY-19-yP via overlap extension PCR of genes involved in progesterone biosynthesis and Gibson Assembly of this gene cassette with homologous arms and linearized pUC19 backbone. Transformation of <i>Y. lipolytica str. LipLox</i> using homologous recombination to exchange gene cassette. Selection of <i>Y. lipolytica str. PoPPY</i> using 5FOA URA+.</p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_ex2"> Experiment 2 </h6>
+       <p>In Experiment 2, we will use yeast-mediated cloning (YMC) in <i>S. cerevisiae</i> to assemble the five progesterone genes into the linearized pXRL2 plasmid to create the pOPPY-XRL2-yP plasmid. YMC experiments have been well documented in <i>S. cerevisiae</i> and have high levels of reliability. We will then isolate pOPPY-XRL2-yP from <i>S. cerevisiae</i> and transform it into <i>Y. lipolytica str. LipLox</i> using the Cre-Lox recombinase method. The LoxP and Lox71 sites were placed on the ends of our five-gene construct during our design process. Cre-Lox will integrate the DNA between the LoxP and Lox71 sites that flank the <i>URA3</i> gene in the <i>Y. lipolytica str. LipLox</i> genome. To test for successful integration, we will grow the transformed <i>Y. lipolytica</i> cells on 5-FOA enriched with <i>URA3</i> to select for cells that successfully exchange the <i>URA3</i> gene for our five-gene insert.</p>
+      <br>
+      <img src="http://2018.igem.org/wiki/images/2/2a/T--UCSC--Experiment_2_Overview.jpg" class="image-inpage large noBorder">
+      <br>
+      <p class="image-inpage-caption" style="width:66%; font-size:85% !important"> Figure 3: Creation of <i>pOPPY-XRL2-yP</i> via Yeast Mediated Cloning in <i>S. cerevisiae</i> using linearized pXRL2 and gene fragments. Transformation of <i>Y. lipolytica str. LipLox</i> using <i>pOPPY-XRL2-yP</i> followed by Cre-Lox Recombination and 5FOA URA+ selection  to create <i>Y. lipolytica str. PoPPY</i>.</p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_ex3"> Experiment 3 </h6>
+       <p>Experiment 3 will be a completely novel experimental trial. Yeast-mediated cloning has not been tested in <i>Y. lipolytica</i>, nor has the Cre-Lox mechanism of integration. We will perform the same YMC steps in Experiment 2 using the <i>Y. lipolytica str. LipLox</i> to assemble the five-gene construct into pXRL2 to form the pOPPY-XRL2-yP plasmid. We will allow the yeast enough time to assemble the construct, and then we will add the Cre recombinase to activate the Lox site integration. If this experiment works, <i>Y. lipolytica str. LipLox</i> will have the ability to assemble and integrate pOPPY-XRL2-yP into its own genome to create the final <i>Y. lipolytica str. PoPPY</i>. The success of Experiment 3 would be a great advancement in the field of yeast engineering.</p>
+      <br>
+      <img src="http://2018.igem.org/wiki/images/7/7f/T--UCSC--Experiment_3_Overview.jpg" class="image-inpage large noBorder">
+      <br>
+      <p class="image-inpage-caption" style="width:66%; font-size:85% !important"> Figure 4: Yeast Mediated Cloning in <i>Y. lipolytica str. LipLox</i> using linearized pXRL2 and gene fragments. This is followed by cre-recombination of Lip-Lox and 5FOA URA+ selection to form <i>Y. lipolytica str. PoPPY</i>. </p>
+    </div>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <h6 id="Expe_qua"> Quantification </h6>
+       <p>To quantify progesterone production in <i>Y. lipolytica str. PoPPY</i>, we will first amplify the experimental plasmid pHR_D17_hrGFP and the riboswitch inserts through <i>E. coli</i> transformation and PCR. We will use the high efficiency transformation protocol for DH5alpha competent <i>E. coli</i> cells from New England Biolabs. After running a selection on ampicillin plates and incubating our successfully transformed <i>E. coli</i> colonies in ampicillin-enriched LB, we will isolate the pHR_D17_hrGFP plasmid with our Zymo miniprep kit. We will confirm the identity and quality of our plasmid isolations through NanoDrop analysis and Sanger sequencing. To create our reporter system plasmid, we will use PCR to linearize the pHR_D17_hrGFP plasmid with a blunt-end double strand break in the 3’ UTR of the hrgfp gene. We will also order five different DNA oligos from Integrated DNA Technologies that will include our entire riboswitch construct with one of the five progesterone-specific aptamers described in the Jimenez paper as well as two 20 bp overhangs that are homologous with the blunt-end sequences of the linearized pHR_D17_hrGFP plasmid. We will then use GA to incorporate our riboswitch insert into the reformed plasmid. We will then transform these plasmids into DH5alpha competent <i>E. coli</i> cells as previously described. The <i>E. coli</i> cells will be used both for cloning of the plasmid as well as testing the function of the riboswitch construct. Any colonies showing working riboswitch constructs will then have their plasmid DNA isolated using one of our minipreps. These plasmids will then be transformed into <i>Y. lipolytica</i> and assayed again to ensure continued function when transferred into eukaryotic cells. In the case that one of our five unaltered plasmids shows functionality with our riboswitch structure, we will then begin trials using CE-SELEX method<sup class="ref"><a href="#ref-0" title="Reference">[1]</a></sup> and random mutagenesis via error-prone PCR<sup class="ref"><a href="#ref-0" title="Reference">[2]</a></sup>  to identify variants that show a decreased sensitivity for progesterone in order to trigger fluorescence at higher concentrations. </p>
+      <br>
+      <img src="http://2018.igem.org/wiki/images/f/f6/T--UCSC--Experiment_Quantification_Overview.jpg" class="image-inpage large noBorder">
+      <br>
+      <p class="image-inpage-caption" style="width:66%; font-size:85% !important">Figure 5: Progesterone-dependent inactivation of hammerhead ribozyme in the 3’ UTR of GFP mRNA. </p>
+    </div>
+  </div>
+
+
+
+<!----------------------------------------Protocols---------------------------------------------------->
+  <div class="flex-row">
+    <div class="flex-col">
+          <h6 id="Expe_pro"> Protocols </h6>
+          <p> This section contains protocols that our team has created or adapted from other sources. Feel free to click on one of the buttons below to view the protocol we used for our experiments.</p>
+         <br>
+          <button class="buttonnotebook2" onclick="openInfoBlock('DPP', this, '#e91b63')" id="defaultOpen">Designing PCR Primers</button>
+          <button class="buttonnotebook2" onclick="openInfoBlock('ECM', this, '#e91b63')"><i>E. Coli</i> Miniprep</button>
+          <button class="buttonnotebook2" onclick="openInfoBlock('YM', this, '#e91b63')">Yeast Miniprep</button>
+          <button class="buttonnotebook2" onclick="openInfoBlock('YDE', this, '#e91b63')">Yeast DNA Extraction</button>
+          <button class="buttonnotebook2" onclick="openInfoBlock('DSP', this, '#e91b63')">Sourced Procedures</button>
+        <br> <br> <br>
+
+<!----------------------------------------Designing PCR Primers---------------------------------------------------->
+        <div id="DPP" class="buttoncontent">
+            <br>
+            <h6> Designing PCR Primers </h6>
+            <p>Our teaching assistant, McKenna Hicks, taught us the following methods for primer design. </p>
+            <ol>
+            <li>Identify the DNA sequence to amplify or stitch together with overlap extension PCR (OE-PCR). During PCR, primers anneal to their complementary sequence and recruit DNA polymerase to extend the sequence in the 5' to 3' Direction.</li>
+            <li>Design a forward (5'- 3') and a reverse primer (3'- 5') to amplify both the top and bottom DNA strands. The ideal primer length is between 18 and 23 bp, but this can be changed to accommodate other constraints.</li>
+            <li>For the forward primer, select a sequence of base pairs (bp) of optimal length.</li>
+            <li>Repeat Step 3 for the reverse primer and generate the reverse complement of the reverse primer sequence.</li>
+            <li>Analyze each sequence using a computational primer tool (such as IDT's Oligo Analyzer) and record the GC content and the melting temperature (Tm) for each primer.</li>
+            <li>The optimal GC content is between 40-60%, and the optimal Tm range is between 52-62℃. Ideally, the difference in Tm for the forward and reverse primer pair should not exceed 5℃.</li>
+            <li>If the GC content exceeds 60% for either primer, add High GC Enhancer to the PCR reaction mix.</li>
+            <li>Check that the free energy (ΔG) value for self-dimers and hetero-dimers on each primer is above -10 kcal/mol to avoid primers spontaneously self-annealing or annealing to each other.</li>
+            <li>Check that hairpin formations do not exceed 30℃ in each primer. PCR uses different temperatures for each thermocycler step; the lowest temperature used during the replication step for primer annealing is 58-60℃. If hairpins form around this temperature, the primer binding efficiency may be reduced and yield less product. However, if the primer Tm is above the hairpin formation temperature, and if the potential hairpin leaves the 3' end of the primer free for annealing, the primer should still anneal properly without reducing PCR Efficiency.</li>
+           </ol>
+        </div>
+
+
+<!----------------------------------------E. Coli Miniprep---------------------------------------------------->
+        <div id="ECM" class="buttoncontent">
+            <br>
+            <h6> <i>E. Coli</i> Miniprep </h6>
+            <p>The following protocol was adapted from the ZyppyTM Plasmid Miniprep Kit procedure from Zymo Research<sup class="ref"><a href="#ref-0" title="Reference">[3]</a></sup>. </p>
+             <ol>
+             <li>First prepare your cell samples: centrifuge the cell cultures (which should be 5 mL in conical tubes) for 15 minutes at 3,750 rpm and 30℃.</li>
+             <li>During waiting time, grab a 250 mL beaker and add roughly 50 mL of 10% bleach. Grab some foil, label \waste", and cover the top of the beaker. Use this beaker to discard biohazardous supernatants and flow-throughs throughout your miniprep.</li>
+            <li>Collect Zyppy columns, Zyppy collection tubes, and 2 sets of 1.5 mL microcentrifuge tubes to match the number of samples you centrifuged. Place the columns over the collection tubes. Be sure to label all vessels accordingly. Place a kimwipe over the open columns. </li>
+            <li>After centrifugation, discard the supernatants into your waste beaker. Be sure to replace the foil lid afterwards.</li>
+            <li>Add 600 L Milli-Q water into each of the conical tubes containing the cell pellets. Resuspend each by slowly pipetting up and down; use that same pipette to transfer the resuspended mixture to its respective clean microcentrifuge tube. Change tips between samples.</li>
+            <li>Add 100 L of 7X Lysis Buffer (blue) and mix by inverting the tube 4-6 times. Proceed to next step within 2 minutes. After addition of 7X Lysis Buffer, the solution should change from opaque to clear blue, indicating complete lysis. </li>
+            <li>Add 350 L of cold Neutralization Buffer and mix thoroughly. The sample will turn yellow when the neutralization is complete and a yellowish precipitate will form. Invert the sample an additional 2-3 times to ensure complete neutralization.</li>
+            <li>Centrifuge at 13,000 rpm (NOT \rcf" or \x g") for 3 minutes.</li>
+            <li>Transfer the supernatant into the provided Zymo-SpinTM IIN column, which should be on top of a collection tube. Avoid disturbing the cell debris pellet.</li>
+            <li>Centrifuge the column + collection tube for 15 seconds at 13,000 rpm (stop the centrifuge when it reaches 15 sec). </li>
+            <li>Discard the flow-through and place the column back into the same Collection Tube.</li>
+            <li>Add 200 L of Endo-Wash Buffer to the column. Centrifuge for 30 seconds at 13,000 rpm. Discard the flow-through.</li>
+            <li>Add 400 L of ZyppyTM Wash Buffer to the column. Centrifuge for 1 minute at 13,000 rpm. Discard flow-through. Be sure to close cap tightly on wash buffer so that ethanol does not evaporate. </li>
+           <li>Transfer the column into a clean 1.5 mL microcentrifuge tube then add 50 L of Milli-Q water in place of Elution Buffer (EB) and add it as close to the filter as possible, being careful not to touch it (use Milli-Q instead of EB to prevent contamination from salts and EDTA). Let stand for at least 10 minutes at room temperature. Incubate longer if needed. </li>
+           <li>Centrifuge for 30 seconds at 13,000 rpm to elute the plasmid DNA. </li>
+           </ol>
+        </div>
+
+
+<!----------------------------------------Yeast Miniprep---------------------------------------------------->
+        <div id="YM" class="buttoncontent">
+            <br>
+            <h6> Yeast Miniprep </h6>
+            <p>The following protocol was adapted from the ZyppyTM Plasmid Miniprep Kit procedure from Zymo Research<sup class="ref"><a href="#ref-0" title="Reference">[3]</a></sup>. </p>
+             <ol>
+             <li>To prepare your cell samples: centrifuge the cell cultures (which should be 5 mL in conical tubes) for 15 minutes at 3,750 rpm and 30C.</li>
+             <li>During waiting time, grab a 250 mL beaker and add roughly 50 mL of 10%  bleach. Grab some foil, label \waste", and cover the top of the beaker. Use this
+ beaker to discard biohazardous supernatants and flow-throughs throughout your miniprep.</li>
+             <li>Collect Zyppy columns, Zyppy collection tubes, and 4 sets of 1.5 mL microcentrifuge tubes to match the number of samples you centrifuged (you can get the Zyppy items from the yellow miniprep kit). Place the columns over the collection tubes. Be sure to label all vessels accordingly. Place a kimwipe over the open columns.</li>
+             <li>After centrifugation, discard the supernatants into your waste beaker. Be sure to replace the foil lid afterwards.</li>
+             <li>Add 600 L Milli-Q water into each of the conical tubes containing the cell pellets. Resuspend each by slowly pipetting up and down; use that same pipette to transfer the resuspended mixture to its respective clean microcentrifuge tube. Change tips between samples.</li>
+             <li>Add 100 L of 7X Lysis Buffer (blue) and add 50 L of small glass beads. Vortex for 5 min. Let stand to allow beads to settle.</li>
+             <li>Transfer the supernatant to a fresh microcentrifuge tube.</li>
+             <li>Add 350 L of cold Neutralization Buffer and mix thoroughly. The sample will turn yellow when the neutralization is complete and a yellowish precipitate will form. Invert the sample an additional 2-3 times to ensure complete neutralization.</li>
+             <li>Centrifuge at 13,000 rpm (NOT \rcf" or \x g") for 10 minutes.</li>
+             <li>Transfer the supernatant into the provided Zymo-SpinTM IIN column, which should be on top of a collection tube. Avoid disturbing the cell debris pellet.</li>
+             <li>Centrifuge the column and collection tube for 45 seconds at 13,000 rpm. </li>
+             <li>Discard the flow-through and place the column back into the same Collection Tube.</li>
+             <li>Add 200 L of Endo-Wash Buffer to the column. Centrifuge for 30 seconds at 13,000 rpm. Discard the flow-through.</li>
+             <li>Add 400 L of ZyppyTM Wash Buffer to the column. Centrifuge for 1 minute at 13,000 rpm. Discard flow-through. Be sure to close cap tightly on wash buffer so that ethanol does not evaporate.</li>
+             <li>Transfer the column into a clean 1.5 mL microcentrifuge tube, then add 50 L of Milli-Q water in place of Elution Buffer (EB) and add it as close to the filter as possible, being careful not to touch it (use Milli-Q instead of EB to prevent contamination from salts and EDTA). Let stand for at least 10 minutes at room temperature. Incubate longer if needed.</li>
+             <li>Centrifuge for 1 minute at 13,000 rpm to elute the plasmid DNA.</li>
+             </ol>
+        </div>
+
+
+<!----------------------------------------Yeast DNA Extraction---------------------------------------------------->
+        <div id="YDE" class="buttoncontent">
+            <br>
+            <h6> Yeast DNA Extraction </h6>
+            <p>We adapted the following procedure from Looke et al.<sup class="ref"><a href="#ref-0" title="Reference">[4]</a></sup></li> with advice from our teaching assistant, McKenna Hicks.</p>
+            <ol>
+              <li>Add 100L Y. lipolytica in YPD to 100L 200mM LiOAc and 1% SDS solution. Incubate in water bath at 70C for 15 minutes.</li>
+              <li>Add 300L of 96% EtOH. Incubate in freezer overnight.</li>
+              <li>Centrifuge at 8,000 rcf at 4C for 30 minutes. Discard supernatant.</li>
+              <li>To wash pellet: resuspend in 1ml 70% EtOH, incubate for 5 minutes then centrifuge for 10 minutes with the previous speed and temperature conditions. Discard supernatant.</li>
+              <li>Repeat wash step once.</li>
+              <li>Resuspend in 100L 0.5X TE or Milli-Q water; if pellet is not completely resuspended add 0.5X TE or Milli-Q water in 75L increments until completely resuspended.</li>
+              <li>Use NanoDrop to determine concentration and quality of the DNA.</li>
+            </ol>
+        </div>
+
+
+<!----------------------------------------Sourced Procedures---------------------------------------------------->
+        <div id="DSP" class="buttoncontent">
+            <br>
+            <h6> Sourced Procdures </h6>
+            <p>The following is a list of procedures we directly sourced for our project.</p>
+            <ul>
+              <li> Gibson Cloning<sup class="ref"><a href="#ref-0" title="Reference">[5]</a></sup></li>
+              <li> Column Electrophoresis via SELEX<sup class="ref"><a href="#ref-0" title="Reference">[1]</a></sup></li>
+              <li> Random Mutagenesis via Error-prone PCR<sup class="ref"><a href="#ref-0" title="Reference">[6]</a></sup></li>
+              <li> High Performance Liquid Chromatography and Mass Spectrometry<sup class="ref"><a href="#ref-0" title="Reference">[7]</a></sup></li>
+            </ul>
+        </div>
+        <br>
+    </div>
+  </div>
+
+
+<br><br>
+
+<hr class="hr-ref">
+
+  <div class="ref-container" id="ref-0">
+    <ol>
+      <li><a href="doi: 10.1007/978-1-59745-557-2_3">Mosing, R. K. and Bowser, M. T. (2009). Isolating aptamers using capillary electrophoresis-SELEX (CE-SELEX). <i>Nucleic Acid and Peptide Aptamers</i></a></li>
+      <li><a href="doi: 10.1007/978-1-60761-652-8_7">McCullum, E. O., Williams, B. A., Zhang, J., and Chaput, J. C. (2010). Random mutagenesis by error-prone PCR. <i>In Vitro Mutagenesis Protocols</i></a></li>
+      <li><a href="https://www.zymoresearch.com/media/amasty/amfile/attach/_D4019_D4020_D4036_D4037_Zyppy_Plasmid_Miniprep_Kit_ver.1.2.7.pdf">Zymo Research Corporation (n.d.). Zyppy Plasmid Miniprep Kit Instruction Manual.</a></li>
+      <li><a href="doi:10.2144/000113672">Looke, M., Kristjuhan, K., and Kristjuhan, A. (2011). EXTRACTION OF GENOMIC DNA FROM YEASTS FOR PCR-BASED APPLICATIONS. BioTechniques</a></li>
+      <li><a href="http://www.cooperlab.wustl.edu/LabMethodsReagentsOperations/GibsonCloning.pdf">Lanier, H. and Kershner, A. (2013). Gibson Cloning v1.3 Kimble Lab Protocol</a></li>
+      <li><a href="doi:10.1007/978-1-60761-652-8 7">McCullum, E. O., Williams, B. A. R., Zhang, J., and Chaput, J. C. (2010). Random mutagenesis by error-prone PCR. Methods in Molecular Biology (Clifton, N.J.)</a></li>
+      <li><a href="doi:10.1016/j.jchromb.2013.07.013">Abdel-Khalik, J., Bjorklund, E., and Hansen, M. (2013). Development of a solid phase extraction method for the simultaneous determination of steroid hormones in H295r cell line using liquid chromatography{tandem mass spectrometry. Journal of Chromatography B</a></li>
+    </ol>
+
+  </div>
+
+
+
+
+
+
+</div>
+</body>
+
+<script>
+function openInfoBlock(blockName,elmnt,color) {
+    var i, buttoncontent, buttonnotebook2;
+    buttoncontent = document.getElementsByClassName("buttoncontent");
+    for (i = 0; i < buttoncontent.length; i++) {
+        buttoncontent[i].style.display = "none";
+    }
+    buttonnotebook2 = document.getElementsByClassName("buttonnotebook2");
+    for (i = 0; i < buttonnotebook2.length; i++) {
+        buttonnotebook2[i].style.backgroundColor = "";
+    }
+    document.getElementById(blockName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</html>
+
+{{:Team:UCSC/Footer}}
