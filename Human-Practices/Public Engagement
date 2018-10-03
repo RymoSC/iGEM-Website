@@ -1,0 +1,30 @@
+{{:Team:UCSC/NavBar}}
+
+<html>
+<head>
+</head>
+<body>
+
+  <div class="header-image" id="header_image_attributions" style="background-image: url(http://2018.igem.org/wiki/images/6/60/T--UCSC--Page_In_Progress.png); background-position: 50% 50%">
+    <p class="header-title" style="top:50%;left:50%">
+     Public Engagement
+    </p>
+    <p class="header-title-progress"> Page in Progress </p>
+  </div>
+
+
+  <div class="flex-row">
+    <div class="flex-col">
+      <p class="p-title"><p class="p-2-title week">Local Santa Cruz County</p>
+      <p><span style="color:#f52153">Secondary School Outreach- </span>We are currently working on updating information. We will update as it becomes available.</p>
+      <p><span style="color:#f52153">Contact with Various Health Centers- </span>We are currently working on updating information. We will update as it becomes available.</p>
+      <p><span style="color:#f52153">UCSC Class Presentations- </span>The professors of UCSC’s Bioethics class asked our iGEM team to present to their summer session students. Four iGEM members created a PowerPoint presentation that primarily discussed the ethical issues of gene drive and our questionnaire. Following the brief presentation, the class broke into smaller groups with one iGEM member per four students. In those small groups, we discussed the potential ethical issues with our project in more detail. Many students offered different perspectives to our project that we hadn’t considered before. For example, some students offered additional questions that would holistically benefit the questionnaire. The Bioethics professor also encouraged us to contact the UCSC Institutional Review Board (IRB) to have them review our questionnaire and approve it for distribution. This was a very important step for our outreach practices, and we are very grateful for the recommendations from both the students and the professors.
+</p></p>
+    </div>
+  </div>
+
+
+</body>
+</html>
+
+{{:Team:UCSC/Footer}}
